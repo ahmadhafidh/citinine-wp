@@ -1,0 +1,218 @@
+/******************************************************************************************************
+   PIXEL TO EM / REM CONVERSION TABLE - Root Size: 16px   
+-----------------------------------------------------------------------------------------------------
+   PX   EM / REM |  PX   EM / REM |  PX   EM / REM |  PX   EM / REM |  PX   EM / REM |  PX   EM / REM
+-----------------------------------------------------------------------------------------------------
+   10 = 0.625    |  20 = 1.25     |  30 = 1.875    |  40 = 2.5      |  50 = 3.125    |  60 = 3.75
+   11 = 0.6875   |  21 = 1.3125   |  31 = 1.9375   |  41 = 2.5625   |  51 = 3.1875   |  61 = 3.8125
+   12 = 0.75     |  22 = 1.375    |  32 = 2        |  42 = 2.625    |  52 = 3.25     |  62 = 3.875
+   13 = 0.8125   |  23 = 1.4375   |  33 = 2.0625   |  43 = 2.6875   |  53 = 3.3125   |  63 = 3.9375
+   14 = 0.875    |  24 = 1.5      |  34 = 2.125    |  44 = 2.75     |  54 = 3.375    |  64 = 4
+   15 = 0.9375   |  25 = 1.5625   |  35 = 2.1875   |  45 = 2.8125   |  55 = 3.4375
+   16 = 1        |  26 = 1.625    |  36 = 2.25     |  46 = 2.875    |  56 = 3.5
+   17 = 1.0625   |  27 = 1.6875   |  37 = 2.3125   |  47 = 2.9375   |  57 = 3.5625
+   18 = 1.125    |  28 = 1.75     |  38 = 2.375    |  48 = 3        |  58 = 3.625
+   19 = 1.1875   |  29 = 1.8125   |  39 = 2.4375   |  49 = 3.0625   |  59 = 3.6875
+-----------------------------------------------------------------------------------------------------
+********************************************************************************************************/
+
+/* SPACES RELATED */
+.header a.logo,
+.header .header-info-wrapper { padding-top: 1vw; }
+.header .header-icon-wrapper { padding-top: 0.25vw; }
+.header.scroll { padding: 0.78rem 0px 0.5em 0px; }
+.header .header-info-wrapper p { margin-bottom: 0px; }
+/* HEADER NAVIGATION AREA */
+.header.scroll .header-navigation-wrapper ul { padding: 1rem 0px; }
+.header .header-navigation-wrapper li a { padding: 1.25vw 1.86vw; }
+.header .header-navigation-wrapper li:last-child { padding-right: 0px; }
+/* HEADER CONTACT AREA */
+.header-info-wrapper p { margin-top: 0.4em; }
+/* HEADER SOCIAL AREA */
+.header .header-icon-wrapper a { margin-top: 0.4em; } 
+/* FONT SIZES RELATED */
+
+/* HEADER AREA */
+.header { z-index: 868686; position: static; top: 0px; left: 0px; display: inline-block; width: 100%; background: #e7e7ef; -webkit-transition: padding ease .34s; -moz-transition: padding ease .34s; transition: padding ease .34s; }
+.header.hidden { display: none; }
+.header.scroll { background: rgba( 20, 20, 20, 0.86 ); -webkit-box-shadow: 0px 8px 12px 0px rgba( 20,20,20, 0.45); -moz-box-shadow: 0px 8px 12px 0px rgba(20,20,20, 0.45); box-shadow: 0px 8px 12px 0px rgba(20,20,20, 0.45); }
+
+/* HEADER NAVIGATION AREA */
+.mobile-menu { position: relative; display: inline-block; float: left; }
+.header-nav-wrapper .nav { align-items: center; justify-content: center; }
+.header-navigation-wrapper ul, .header-navigation-wrapper li { margin: 0px; padding: 0px; display: inline-block; float: left; list-style: none; }
+.header-navigation-wrapper li a { position: relative; color: #272761; text-transform: uppercase; font-family: 'Merriweather', serif; } 
+.header-navigation-wrapper li.current-menu-item a,
+.header-navigation-wrapper li a.selected,
+.header-navigation-wrapper li a:hover { color: #ffcb1f; }
+.header-navigation-wrapper li.current-menu-item a::before,
+.header-navigation-wrapper li a.selected::before,
+.header-navigation-wrapper li a:hover::before { position: absolute; bottom: 0px; left: 25%; display: inline-block; width: 50%; height: 3px; background: #787885; content: " "; }
+
+/* HEADER CONTACT AREA */
+.header-info-wrapper p { display: flex; width: 100%; align-items: center; justify-content: center; text-align: center; color: #272761; font-weight: 700; }
+.header-info-wrapper p span, 
+.header-info-wrapper p i { display: inline-block; float: left; }
+.header-info-wrapper p i.fa { margin-right: 0.5em; font-size: 1.5em; line-height: 0.5em; }
+
+/* HEADER SOCIAL AREA */
+.header .header-icon-wrapper a { display: inline-block; float: left; width: 50%; font-size: 1.5em; color: #272761; text-align: center; }
+
+@media screen and (min-width: 1500px) {
+        
+        /* SPACES RELATED */
+        .header { padding: 2.5rem 0px; }
+        .header.scroll { padding: 0.78rem 0px 0.5em 0px; }
+        /* HEADER NAVIGATION AREA */
+        .header .header-navigation-wrapper ul { padding: 1.25rem 0px; }
+        .header.scroll .header-navigation-wrapper ul { padding: 1rem 0px; }
+        .header .header-navigation-wrapper li  { padding: 0px 1.86rem; }
+        /* FONT SIZES RELATED */
+}
+@media screen and (max-width: 1200px) and (min-width: 1101px) {
+    
+}
+@media screen and (max-width: 1100px) and (min-width: 992px) {
+
+        /* HEADER NAVIGATION AREA */
+        .header .header-navigation-wrapper li a { padding: 1.25vw 1.1vw; }
+}
+
+/* IPAD PRO */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+        
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+        
+}
+
+/* Landscape phone to portrait tablet */
+@media screen and (min-width: 992px ) {
+        
+        /* UPDATE THE MOBILE MENU */
+        .mobile-menu { padding: 0px; }
+        .mobile-menu .hamburger-box { display: none; }
+        
+        .header .container { max-width: 90%; }
+}
+
+/* Landscape phone to portrait tablet */
+@media screen and (max-width: 991px ) {
+        
+        /* SPACES RELATED */
+        .header { padding: 1.5vw 0px; }
+        .header.scroll { padding: 1.5vw 0px 0.5vw 0px; } 
+        .mobile-menu { padding-top: 2.5vw; padding-left: 0px; padding-right: 0px; display: inline-block; }
+        .header .header-nav-wrapper ul { padding: 1.25vw 5%; }
+        .header.scroll .header-nav-wrapper ul { padding: 1.513vw 5%; }
+        .mobile-menu .header-nav-wrapper li { padding: 1.8vw 0px; }
+        /* FONT SIZES RELATED */
+        
+        /* HEADER NAV AREA */
+        .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before { background-color: #272761; opacity: 1; }
+        .mobile-menu > .header-nav-wrapper { z-index: 86868686; display: none; position: absolute; top: 100%; right: 0px; float: right; width: 34vw; }
+        .mobile-menu.is-active > .header-nav-wrapper { display: inline-block; }
+        .header-nav-wrapper > ul, .header-nav-wrapper > ul > li,
+        .header-nav-wrapper > ul > li > a { float: left; clear: left; width: 100%; text-align: left; }
+        .mobile-menu > .header-nav-wrapper > ul { background: rgba(231,231,239,1); border-radius: 10px; -webkit-box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.15); -moz-box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.15); box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.15); }
+        .mobile-menu > .header-nav-wrapper > ul > li { text-align: right; border-bottom: 1px solid #d7d7d7; }
+        .mobile-menu > .header-nav-wrapper > ul > li:last-child { border-bottom: 0px; }
+        .mobile-menu > .header-nav-wrapper > ul > li.is-selected > a,
+        .mobile-menu > .header-nav-wrapper > ul > li:hover > a,
+        .mobile-menu > .header-nav-wrapper > ul > li > a:hover,
+        .mobile-menu > .header-nav-wrapper > ul > li.current-page-parent > a, 
+        .mobile-menu > .header-nav-wrapper > ul > li.current-menu-ancestor > a,
+        .mobile-menu > .header-nav-wrapper > ul > li.current_page_item > a { border: 0px; border-radius: 0px; }
+        .header-navigation-wrapper li.current-menu-item a::before, .header-navigation-wrapper li a.selected::before, 
+        .header-navigation-wrapper li a:hover::before { display: none; content: ""; }
+        
+        /* HEADER AREA */
+        .header .container { position: relative; }
+        .header-logo-wrapper, .header-nav-wrapper, 
+        .header-icon-wrapper { padding-left: 0px; padding-right: 0px; }
+        .header-logo-wrapper { display: flex; justify-content: center; align-items: center; }
+        .header-nav-wrapper { position: absolute; top: 0px; left: 0px; }
+        .header-icon-wrapper { position: absolute; top: 0px; right: 0px; }
+        .header .header-icon-wrapper a { text-align: right; }
+        .header-info-wrapper p { justify-content: flex-end; }
+        
+        /* HOME PAGE AREA */
+        .rev_slider .tp-parallax-wrap:first-child { left: 0px !important; top: 0px !important; }
+}
+
+/* Landscape phone to portrait tablet */
+@media screen and (max-width: 768px ) {
+    
+}
+@media screen and (max-width: 767px ) {
+        
+}
+@media screen and (max-width: 736px){
+
+}
+@media screen and (max-width: 695px ) {
+
+        
+}	
+
+@media screen and (max-width: 667px){	
+       
+}
+@media screen and (max-width: 640px){
+        
+        /* SPACES RELATED */
+        .header { padding: 3.4vw 0px; }
+        .header.scroll { padding: 3.4vw 0px 1vw 0px; } 
+        .mobile-menu { padding-top: 1vw; }
+        .header .header-navigation-wrapper ul { padding: 2.5vw 5%; }
+        .header.scroll .header-navigation-wrapper ul { padding: 3.4vw 5%; }
+        .mobile-menu .header-navigation-wrapper li { padding: 3.6vw 0px; }
+        /* FONT SIZES RELATED */
+        
+        /* HEADER AREA */
+        .header .container { padding: 0 5% !important; }
+        .header .logo { max-width: 67%; }
+        .mobile-menu > .header-navigation-wrapper { width: 73vw; }
+}
+@media screen and (max-width: 580px) {
+    
+}
+
+/* Landscape phones and down */
+@media screen and (max-width: 568px) {
+        
+}
+@media screen and (max-width: 480px) {
+
+        /* HEADER NAVIGATION AREA */
+        .mobile-menu > .header-nav-wrapper { width: 67vw; }
+        
+        /* HEADER AREA */
+        .header .container { width: 100%; }
+        .header .mobile-menu { padding-left: 0px; }
+        .header .header-info-wrapper { padding-left: 0px; padding-right: 0px; }
+}
+
+@media screen and (max-width: 420px) {
+        
+}
+@media screen and (max-width: 414px){
+        
+}
+@media screen and (max-width: 375px){
+        
+}
+@media screen and (max-width: 360px){
+        
+}

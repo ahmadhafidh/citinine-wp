@@ -1,0 +1,306 @@
+/********************************************************************************************************
+    PIXEL TO REM CONVERSION TABLE - Root Size: 16px
+---------------------------------------------------------------------------------------------------------
+    PX   REM / EM |  PX   REM / EM |  PX   REM / EM |  PX   REM / EM |  PX   REM     |  PX   REM / EM
+---------------------------------------------------------------------------------------------------------
+    10 = 0.625    |  20 = 1.25     |  30 = 1.875    |  40 = 2.5      |  50 = 3.125   |  60 = 3.75
+    11 = 0.6875   |  21 = 1.3125   |  31 = 1.9375   |  41 = 2.5625   |  51 = 3.1875  |  61 = 3.8125
+    12 = 0.75     |  22 = 1.375    |  32 = 2        |  42 = 2.625    |  52 = 3.25    |  62 = 3.875
+    13 = 0.8125   |  23 = 1.4375   |  33 = 2.0625   |  43 = 2.6875   |  53 = 3.3125  |  63 = 3.9375
+    14 = 0.875    |  24 = 1.5      |  34 = 2.125    |  44 = 2.75     |  54 = 3.375   |  64 = 4
+    15 = 0.9375   |  25 = 1.5625   |  35 = 2.1875   |  45 = 2.8125   |  55 = 3.4375
+    16 = 1        |  26 = 1.625    |  36 = 2.25     |  46 = 2.875    |  56 = 3.5
+    17 = 1.0625   |  27 = 1.6875   |  37 = 2.3125   |  47 = 2.9375   |  57 = 3.5625
+    18 = 1.125    |  28 = 1.75     |  38 = 2.375    |  48 = 3        |  58 = 3.625
+    19 = 1.1875   |  29 = 1.8125   |  39 = 2.4375   |  49 = 3.0625   |  59 = 3.6875
+---------------------------------------------------------------------------------------------------------
+*********************************************************************************************************/
+
+/** SPACING AREA **/
+/* CONTACT PAGE */
+#contact-page-form #contact-page-info-heading,
+#contact-page-form #contact-page-info-icon { padding: 0px 10%; }
+#contact-page-form #contact-page-info-heading .vc_column_container > .vc_column-inner,
+#contact-page-form #contact-page-info-icon .vc_column_container > .vc_column-inner { padding: 0px; }
+#contact-page-form #contact-page-info-icon .vc_column_container > .vc_column-inner .wpb_text_column { margin-bottom: 0px; margin-top: 1em; }
+#contact-page-form #contact-page-info-icon .vc_column_container > .vc_column-inner .wpb_text_column p { margin-bottom: 0px; }
+#contact-social-area { padding: 4em 0px; }
+#contact-social-area #contact-social-title { margin-bottom: 1.5em; }
+#contact-social-area .vc_icon_element { margin-bottom: 0px; }
+
+/** FONT SIZE AREA **/
+
+
+/** MAIN AREA **/
+.full-page-article-wrapper > .vc_row { margin: 0px; }
+
+/* HOME PAGE */
+#home-about { padding: 3.4em 0px !important; }
+#home-top-left-project-info { margin: 0px; }
+#home-top-left-project .wpb_single_image { margin-bottom: 0px; }
+#home-top-left-project-info .wpb_text_column h1, #home-top-left-project-info .wpb_text_column h2,
+#home-top-left-project-info .wpb_text_column h3, #home-top-left-project-info .wpb_text_column h4,
+#home-top-left-project-info .wpb_text_column h5,
+#home-top-left-project-info .wpb_text_column p { color: #fff; }
+#home-top-left-project-info .wpb_text_column h1, #home-top-left-project-info .wpb_text_column h2,
+#home-top-left-project-info .wpb_text_column h3, #home-top-left-project-info .wpb_text_column h4,
+#home-top-left-project-info .wpb_text_column h5 { font-family: 'Merriweather', serif !important; }
+@media screen and (min-width: 992px){
+    
+        #home-top-left-project > .vc_column-inner > .wpb_wrapper,
+        #home-top-left-project > .vc_column-inner > .wpb_wrapper > .wpb_single_image > figure,
+        #home-top-left-project > .vc_column-inner > .wpb_wrapper > .wpb_single_image > figure > .vc_single_image-wrapper
+        { position: relative; height: 100%; }
+        #home-top-left-project .wpb_single_image { height: 100%; }
+        #home-top-left-project .wpb_single_image img { width: 100%; height: 100%; object-fit: cover; }
+        #home-top-left-project-info { padding: 0 2% !important; position: absolute; top: 0px; right: 0px; height: 100%; width: 40%; }
+}
+#home-top-right-project .wpb_single_image { margin-bottom: 0px; }
+#home-top-right-project .wpb_single_image img { width: 100%; height: 100%; object-fit: cover; }
+#home-top-right-project-info { margin: 0px; padding: 2em 6.7%  1em 6.7% !important; }
+#home-about .vc_btn3-container { margin-bottom: 0px; }
+.home-property-info-wrapper > .vc_column-inner > .wpb_wrapper > .vc_row { margin: 0px; padding: 2.5em 8% !important; }
+#home-contact-form { padding: 3.4em 0px !important; }
+#home-contact .label-wrapper { width: 25%; }
+#home-contact .input-wrapper { width: 75%; }
+#home-contact .form-submit-wrapper { padding-left: 25%; }
+
+/* PROJECTS */
+#projects-search-image .wpb_single_image,
+#projects-search-image .wpb_single_image > .wpb_wrapper,
+#projects-search-image .wpb_single_image > .wpb_wrapper > .vc_single_image-wrapper { height: 100%; }
+#projects-search-image .wpb_single_image > .wpb_wrapper > .vc_single_image-wrapper img { width: 100%; height: 100%; object-fit: cover; }
+#project-search-form-info > .vc_column-inner { padding: 2.5em 10%; }
+#project-search-form-info .wpb_text_column h1, #project-search-form-info .wpb_text_column h2,
+#project-search-form-info .wpb_text_column h3, #project-search-form-info .wpb_text_column h4,
+#project-search-form-info .wpb_text_column h5,
+#project-search-form-info .wpb_text_column p { color: #fff; }
+#projects-categories .wpb_single_image { margin-bottom: 0px; }
+#projects-categories a.category-link,
+#projects-categories .category-link,
+#projects-categories .category-link a,
+#projects-categories .category-link button { position: relative; margin-bottom: 0px; display: inline-block; width: 100%; text-align: left; color: #272761; font-family: 'Merriweather', serif !important; }
+#projects-categories a.category-link::after, 
+#projects-categories .category-link a::after,
+#projects-categories .category-link button::after { float: right; display: inline-block; content: "\2192"; }
+#projects-categories > .vc_col-sm-4 > .vc_column-inner { z-index: 1; position: relative; transition: all 0.18s linear; }
+#projects-categories > .vc_col-sm-4 > .vc_column-inner:hover { z-index: 8; transform: scale(1.2); cursor: pointer; }
+#projects-categories-wrapper { padding: 3.4em 0px 3.4em 5% !important; } 
+#projects-categories-info .wpb_text_column h1, #projects-categories-info .wpb_text_column h2,
+#projects-categories-info .wpb_text_column h3, #projects-categories-info .wpb_text_column h4,
+#projects-categories-info .wpb_text_column h5,
+#projects-categories-info .wpb_text_column p { color: #787885; }
+#projects-categories-lists > .vc_column-inner { padding-right: 0px; }
+#projects-search-image .wpb_single_image { margin-bottom: 0px; }
+#projects-subscription { padding: 3.4em 0px !important; }
+#projects-subscription > .container > .vc_column-inner { padding-top: 0px; }
+#projects-subscription-info .wpb_text_column h1, #projects-subscription-info .wpb_text_column h2,
+#projects-subscription-info .wpb_text_column h3, #projects-subscription-info .wpb_text_column h4, 
+#projects-subscription-info .wpb_text_column h5,
+#projects-subscription-info .wpb_text_column p { color: #fff; }
+#projects-bottom { }
+#projects-bottom .wpb_single_image { margin-bottom: 0px; }
+#projects-bottom .projects-bottom-info { padding: 2.5em 5% !important; }
+
+/* ABOUT PAGE */
+#about-top-info { padding: 1.78em 3% 1.78em 3% !important; }
+#about-top-image > .vc_column-inner, #about-top-image > .vc_column-inner > .wpb_wrapper,
+#about-top-image > .vc_column-inner > .wpb_wrapper > .wpb_single_image,
+#about-top-image > .vc_column-inner > .wpb_wrapper > .wpb_single_image > .wpb_wrapper,
+#about-top-image > .vc_column-inner > .wpb_wrapper > .wpb_single_image > .wpb_wrapper > .vc_single_image-wrapper { height: 100%; }
+#about-top-image > .vc_column-inner > .wpb_wrapper > .wpb_single_image { margin-bottom: 0px; }
+#about-top-image > .vc_column-inner > .wpb_wrapper > .wpb_single_image > .wpb_wrapper > .vc_single_image-wrapper img 
+{ width: 100%; height: 100%; object-fit: cover; }
+#about-vision h1, #about-vision h2, #about-vision h3, #about-vision h4,
+#about-vision p { color: #fff; }
+#about-vision { padding: 0.5em 1.5% !important; }
+#about-vision > .vc_col-sm-6 { padding: 0px 1.5% !important; }
+#about-board-director { padding: 1.8em 0px !important; margin-left: 0px; margin-right: 0px; }
+#about-board-director .vc_col-sm-12 h2 { margin-bottom: 1.8em; }
+#board-directors-list .vc_col-sm-4 > .vc_column-inner > .wpb_wrapper { background: #ebebeb; }
+#board-directors-list { margin-left: 0px; margin-right: 0px; }
+#board-directors-list .vc_col-sm-4 { padding-bottom: 1.5em; cursor: pointer; }
+#board-directors-list .vc_col-sm-4:hover { }
+#board-directors-list .vc_col-sm-4:hover > .vc_column-inner > .wpb_wrapper { transform: scale(1.1); transition: all 0.34s linear; }
+#board-directors-list .vc_col-sm-4:hover > .vc_column-inner > .wpb_wrapper > h4,
+#board-directors-list .vc_col-sm-4:hover > .vc_column-inner > .wpb_wrapper > .wpb_text_column { transform: scale(0.91); }
+#board-directors-list .vc_col-sm-4 > .vc_column-inner > .wpb_wrapper > .wpb_single_image { margin-bottom: 0px; }
+#board-directors-list .vc_col-sm-4 > .vc_column-inner > .wpb_wrapper > h4,
+#board-directors-list .vc_col-sm-4 > .vc_column-inner > .wpb_wrapper > .wpb_text_column { padding-left: 5%; padding-right: 5%; }
+#board-directors-list .vc_col-sm-4 > .vc_column-inner > .wpb_wrapper > h4 { margin: 1em 0px; }
+#board-directors-list .vc_col-sm-4 > .vc_column-inner > .wpb_wrapper > .wpb_text_column { display: none; transition: all 0.34s linear; }
+#board-directors-list .vc_col-sm-4 > .vc_column-inner > .wpb_wrapper > .wpb_text_column p { font-size: 0.86em; }
+#board-directors-list .vc_col-sm-4:hover > .vc_column-inner > .wpb_wrapper > .wpb_text_column { display: inline-block; }
+#about-nine-philosophies { padding: 3.4em 0px !important; }
+#about-nine-philosophies > .vc_column_container > .vc_column-inner { padding-top: 0px; }
+#about-nine-philosophies .wpb_single_image { padding-right: 10%; margin-bottom: 2em; }
+#about-nine-philosophies .wpb_text_column { margin-bottom: 0px; }
+#about-contact-more { }
+#about-contact-more-left h4 { padding-left: 0px; }
+#about-contact-more-left .wpb_text_column { margin-bottom: 1em; }
+#about-contact-more-right > .vc_column-inner > .wpb_wrapper { height: 100%; }
+#about-contact-more-right .wpb_single_image,
+#about-contact-more-right .wpb_single_image > .wpb_wrapper, #about-contact-more-right .wpb_single_image > .wpb_wrapper > .vc_single_image-wrapper,
+#about-contact-more-right .vc_single_image-wrapper img { width: 100%; height: 100%; }
+#about-contact-more-right .about-projects-category-wrapper > .vc_column_container,
+#about-contact-more-right .about-projects-category-wrapper > .vc_column_container > .vc_column-inner,
+#about-contact-more-right .about-projects-category-wrapper > .vc_column_container > .vc_column-inner > .wpb_wrapper { height: 100%; }
+#about-contact-more-right > .vc_column-inner > .wpb_wrapper > .about-projects-category-wrapper { height: 33.3333%; cursor: pointer; }
+#about-contact-more-right .vc_single_image-wrapper img { object-fit: cover; }
+#about-contact-more-right > .vc_column-inner > .wpb_wrapper:hover > .about-projects-category-wrapper { height: 30%; }
+#about-contact-more-right > .vc_column-inner > .wpb_wrapper:hover > .about-projects-category-wrapper:hover { height: 40%; cursor: pointer; }
+#about-contact-more-right .about-projects-category-wrapper > .vc_column_container > .vc_column-inner > .wpb_wrapper { position: relative; }
+#about-contact-more-right .about-projects-category-wrapper .about-category-link { z-index: 86; display: inline-block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: rgba(39,39,97,0.65); }
+#about-contact-more-right .about-projects-category-wrapper .about-category-link a,
+#about-contact-more-right .about-projects-category-wrapper .about-category-link button { padding: 0px 10%; display: flex; justify-content: flex-end; align-items: center; width: 100%; height: 100%; font-size: 1.25em; color: #fff; background: none; font-family: 'Merriweather', serif !important; }
+#about-contact-more-right .about-projects-category-wrapper .about-category-link a::after,
+#about-contact-more-right .about-projects-category-wrapper .about-category-link button::after { margin-left: 2em; display: inline-block; content: "\2192"; }
+@media screen and (min-width: 992px) {
+ 
+        #about-contact-more-right .about-projects-category-wrapper { overflow: hidden; }
+        #about-contact-more-right .about-projects-category-wrapper .about-category-link { transform: translateY(100%); transition: all 0.27s ease-in-out; }
+        #about-contact-more-right > .vc_column-inner > .wpb_wrapper:hover > .about-projects-category-wrapper:hover .about-category-link { transform: translateY(0px); }
+}
+#about-property-logos { padding: 3.4em 0px !important; }
+
+/* CONTACT PAGE */
+#contact-page-form #contact-page-form-left > .vc_column-inner > .wpb_wrapper { height: 100%; }
+#contact-page-form .contact-page-info-wrapper { display: flex; height: 67%; }
+#contact-page-form #contact-page-info-icon { align-items: center; height: 33%;  }
+#contact-page-form #contact-page-info-icon .vc_column_container > .vc_column-inner .wpb_text_column p,
+#contact-page-form #contact-page-info-icon .vc_column_container > .vc_column-inner .wpb_text_column a { color: #787885; }
+#contact-form-title { margin-bottom: 1em; }
+#contact-page-form-right > .vc_column-inner { padding: 3.4em 10% !important; }
+#contact-page-form-right .label-wrapper { width: 25%; }
+#contact-page-form-right .input-wrapper { width: 75%; }
+#contact-page-form-right .form-submit-wrapper input { float: right;  }
+.wpb_gmaps_widget > .wpb_wrapper { padding: 0px; }
+#contact-map-area .setheightmaps { min-height: 400px; }
+#contact-map-area .setheightmaps > .vc_column-inner,
+#contact-map-area .setheightmaps > .vc_column-inner > .wpb_wrapper,
+#contact-map-area .wpb_gmaps_widget,
+#contact-map-area .wpb_gmaps_widget > .wpb_wrapper,
+#contact-map-area .wpb_gmaps_widget .wpb_map_wraper,
+#contact-map-area .wpb_gmaps_widget .mapscustom { height: 100%; }
+
+@media screen and (max-width: 991px) {
+    
+        /* RESET CONTAINER */
+        #home-contact-form .container,
+        #about-nine-philosophies .container,
+        #about-board-director .container,
+        #home-about > .container { max-width: 100% !important; }
+    
+        /* HOME AREA */
+        #home-top-left-project-info { padding-left: 5% !important; padding-right: 5% !important; }
+        #home-top-left-project-info > .wpb_column > .vc_column-inner { padding-left: 0px; padding-right: 0px; }
+        #home-top-left-project-info .wpb_text_column { width: 100%; }
+        #home-top-right-project-info { padding: 4.5vw 5% !important; }
+        #home-about > .container > .vc_column-inner,
+        #home-about > .container > .vc_column-inner .vc_column-inner { padding: 0px; }
+        #home-about > .container > .vc_column-inner .vc_row { margin: 0px; }
+        #home-about { padding: 4.5vw 5% !important; }
+        .home-property-info-wrapper > .vc_column-inner > .wpb_wrapper > .vc_row { padding: 4.5vw 5% !important; }
+        #home-contact-form { padding: 4.5vw 5% !important; }
+        #home-contact-form > .container > .vc_column-inner { padding: 0px; }
+        #home-contact-form > .container > .vc_column-inner .vc_custom_heading { margin-bottom: 4.5vw; }
+        #home-contact-form > .container > .vc_column-inner > .wpb_wrapper > .vc_row { margin: 0px; }
+        #home-contact-form > .container > .vc_column-inner > .wpb_wrapper > .vc_row .vc_column-inner { padding: 0px; }
+        
+        /* PROJECTS PAGE */
+        #project-search-form-info > .vc_column-inner { padding: 4.5vw 5% !important; }
+        #projects-categories-wrapper { padding: 4.5vw 5% 4.5vw 5% !important; }
+        #projects-categories-wrapper .vc_column-inner { padding: 0px; }
+        #projects-categories > .vc_col-sm-4 { margin-bottom: 4.5vw; }
+        #projects-categories > .vc_col-sm-4:last-child { margin-bottom: 0px; }
+        .project-category-wrapper .vc_column-inner { padding: 0px; }
+        .project-category-wrapper .wpb_single_image,
+        .project-category-wrapper .wpb_single_image > .wpb_wrapper,
+        .project-category-wrapper .wpb_single_image > .wpb_wrapper > .vc_single_image-wrapper,
+        .project-category-wrapper .wpb_single_image > .wpb_wrapper > .vc_single_image-wrapper img { width: 100%; height: auto; }
+        #projects-categories > .vc_col-sm-4 > .vc_column-inner:hover { transform: scale(1); }
+        #projects-subscription .container > .vc_column-inner { padding: 0px; }
+        .projects-bottom-info .gray-border-btn { margin-bottom: 0px; }
+        
+        /* ABOUT PAGE */
+        #about-top-info { padding: 4.5vw 5% !important; }
+        #about-top-info .vc_column-inner { padding: 0px; }
+        #about-contact-more .wpb_single_image { margin-bottom: 0px; }
+        #about-vision .vc_column-inner,
+        #about-vision .vc_column-inner .vc_custom_heading { text-align: center !important; }
+        #about-board-director { padding: 4.5vw 5% !important; }
+        #about-board-director > .vc_column_container > .vc_column-inner,
+        #about-board-director > .vc_column_container > .vc_column-inner .vc_column-inner,
+        #about-nine-philosophies > .vc_column_container > .vc_column-inner,
+        #about-nine-philosophies > .vc_column_container > .vc_column-inner .vc_column-inner { padding-left: 0px; padding-right: 0px; }
+        #about-board-director .wpb_single_image, #about-board-director .wpb_single_image > .wpb_wrapper,
+        #about-board-director .vc_single_image-wrapper,
+        #about-board-director .vc_single_image-wrapper img { width: 100%; height: auto; }
+        #board-directors-list .vc_col-sm-4:hover > .vc_column-inner > .wpb_wrapper,
+        #board-directors-list .vc_col-sm-4:hover > .vc_column-inner > .wpb_wrapper > h4, 
+        #board-directors-list .vc_col-sm-4:hover > .vc_column-inner > .wpb_wrapper > .wpb_text_column { transform: scale(1); }
+        #board-directors-list .vc_col-sm-4 > .vc_column-inner > .wpb_wrapper > .wpb_text_column { display: inline-block; }
+        #about-nine-philosophies { padding: 4.5vw 5% !important; }
+        #about-nine-philosophies .wpb_single_image { padding-right: 0px; margin-bottom: 3vw; }
+        #about-contact-more > .vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row { margin-left: 0px; margin-right: 0px; padding: 4.5vw 5% !important; }
+        #about-contact-more > #about-contact-more-right.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row { padding: 1.25vw 0px !important; }
+        #about-contact-more > #about-contact-more-right.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row:first-child { padding-top: 0px !important; }
+        #about-contact-more > #about-contact-more-right.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row:last-child { padding-bottom: 0px !important; }
+        #about-contact-more > .vc_column_container > .vc_column-inner .vc_column-inner { padding-left: 0px; padding-right: 0px; }
+        #about-contact-more > .vc_column_container > .vc_column-inner .gray-border-btn { margin-bottom: 0px; }
+        #about-contact-more-right > .vc_column-inner > .wpb_wrapper > .about-projects-category-wrapper,
+        #about-contact-more-right > .vc_column-inner > .wpb_wrapper:hover > .about-projects-category-wrapper,
+        #about-contact-more-right > .vc_column-inner > .wpb_wrapper:hover > .about-projects-category-wrapper:hover { height: auto; }
+        #about-contact-more-right .wpb_single_image, #about-contact-more-right .wpb_single_image > .wpb_wrapper,
+        #about-contact-more-right .wpb_single_image > .wpb_wrapper > .vc_single_image-wrapper, 
+        #about-contact-more-right .vc_single_image-wrapper img { width: 100%; height: auto; }
+        #about-property-logos > .container > .vc_column-inner { padding: 0px; }
+    
+        /* CONTACT PAGE */
+        #contact-page-form #contact-page-info-heading, 
+        #contact-page-form #contact-page-info-icon { padding-left: 5% !important; padding-right: 5% !important; }
+        #contact-page-form .contact-page-info-wrapper { padding-top: 6.7vw !important; height: auto; }
+        #contact-page-form #contact-page-info-icon { padding-top: 4.5vw !important; padding-bottom: 4.5vw !important; height: auto; }
+        #contact-page-form-right > .vc_column-inner { padding: 4.5vw 5% !important; }
+        #contact-page-info-icon > .vc_col-sm-6:first-child { margin-bottom: 4.5vw; }
+        #contact-page-info-icon .wpb_text_column,
+        #contact-page-info-icon .wpb_text_column > .wpb_wrapper { width: 100%; }
+        #contact-page-info-icon .vc_icon_element,
+        #contact-page-info-icon .wpb_text_column { text-align: center; }
+        #contact-social-area { padding: 4.5vw 5%; }
+        #contact-social-area > .vc_column-inner > .wpb_wrapper > .vc_row { margin-left: 0px; margin-right: 0px; }
+        #contact-social-area > .vc_column-inner > .wpb_wrapper > .vc_row > .vc_col-sm-4 { float: left; width: 33.33333%; }
+        #contact-map-area > .vc_col-sm-3 > .vc_column-inner { padding-left: 5% !important; padding-right: 5% !important; }
+}
+@media screen and (max-width: 480px){
+    
+        /* HOME AREA */
+        #home-top-right-project-info,
+        #home-about,
+        .home-property-info-wrapper > .vc_column-inner > .wpb_wrapper > .vc_row,
+        #home-contact-form { padding: 9vw 10% !important; }
+        #home-contact-form > .container > .vc_column-inner .vc_custom_heading { margin-bottom: 9vw; }
+        
+        /* PROJECTS PAGE */
+        #project-search-form-info > .vc_column-inner,
+        #projects-categories-wrapper { padding: 9vw 10% !important; }
+        #projects-categories > .vc_col-sm-4 { margin-bottom: 9vw; }
+        
+        /* ABOUT PAGE */
+        #about-top-info,
+        #about-board-director,
+        #about-nine-philosophies,
+        #about-contact-more > .vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row { padding: 9vw 10% !important; }
+        #about-contact-more > #about-contact-more-right.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row { padding: 2.5vw 0px !important; }
+        #about-nine-philosophies .wpb_single_image { margin-bottom: 6vw; }
+        
+        /* CONTACT PAGE */
+        #contact-page-form #contact-page-info-heading, 
+        #contact-page-form #contact-page-info-icon,
+        #contact-map-area > .vc_col-sm-3 > .vc_column-inner { padding-left: 10% !important; padding-right: 10% !important; }
+        #contact-page-form .contact-page-info-wrapper { padding-top: 13vw !important; }
+        #contact-page-form #contact-page-info-icon { padding-top: 9vw !important; padding-bottom: 9vw !important; }
+        #contact-page-form-right > .vc_column-inner,
+        #contact-social-area  { padding: 9vw 10% !important; }
+        #contact-page-info-icon > .vc_col-sm-6:first-child { margin-bottom: 9vw; }
+}

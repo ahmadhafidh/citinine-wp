@@ -1,0 +1,103 @@
+.cf:before,
+.cf:after {content: " ";display: table;}
+.cf:after {clear: both;}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {*zoom: 1;}
+
+
+#GoogleMap {
+    border: solid 1px #bbb;
+    height: 300px;
+    margin-top: 10px;
+     width: 97%;
+}
+
+.marker-picker{display:none;}
+
+.iconChooser{
+    border: solid 1px #ccc;
+    display:none;/*Starts out hidden*/
+    margin-top:15px;
+    padding: 10px;
+}
+
+.iconChooser span{
+    border-top:dashed 1px #ccc;
+    display:block;
+    margin-top:10px;
+    padding:5px 0;
+}
+
+#poststuff .iconChooser h3{padding-left:0;}
+
+
+.iconChooser .mapCategoryIcons{}
+.iconChooser .mapCategoryIcons li li{display:inline-block;}
+
+.iconChooser .mapCategoryIcons li a.mapIcon{
+    border:solid 1px transparent;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    display:block;
+}
+
+/*None option*/
+.iconChooser .mapCategoryIcons li a.mapIcon.select-none{
+    border:solid 1px #ccc;
+    border-radius:2px;
+    display:block;
+    width:;
+}
+.iconChooser .mapCategoryIcons li a.mapIcon:hover{
+    background-color:#ccc;
+    border:solid 1px #aaa;
+}
+
+.iconChooser .mapCategoryIcons li a.mapIcon:active{
+    background-color:#999;
+    border:solid 1px #777;
+}
+
+/*Currently chosen item*/
+.iconChooser .mapCategoryIcons li a.mapIcon.selected{
+    background-color:#333;
+    border:solid 1px #333;
+}
+
+.iconChooser .mapCategoryIcons li a.mapIcon img{}
+
+#AllIconChoices{
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+
+    background-color:#fff;
+    border:solid 1px #ccc;
+    height:200px;
+    overflow:auto;
+    padding:10px;
+}
+
+#AllIconChoices h3{
+    border-bottom: solid 1px #eee;
+    clear:both;
+    display:block;
+    float:none;
+    margin:0 0 10px 0;
+    padding-bottom: 5px;
+    width:435px;
+}
+
+.clear-marker-selector{display:none;}
+.expand-marker-selector{float:left;}
+
+.currentIcon{
+    background:transparent none no-repeat 50% 0;
+    display: block;
+    float:left;
+    height: 70px;
+    width: 60px;
+}

@@ -1,0 +1,20 @@
+/*
+    Document   : SettingsPage
+    Created on : 24-Apr-2013, 17:12:45
+    Author     : jamesb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#icon-edit.icon32-posts-maplist,.icon32{background:transparent url("../../images/MapListProBigIcon.png") no-repeat 50% 50%;}
+.form-table td p.text-small{font-size:11px;}
+
+.mapStyleExampleBox {
+	background-color: #eee;
+	border: solid 1px #aaa;
+	padding: 20px;
+}
+
+.mapStyleExampleBox h3 {
+	margin: 0 0 15px 0;
+}

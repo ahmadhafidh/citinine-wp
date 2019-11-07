@@ -1,0 +1,168 @@
+/******************************************************************************************************
+   PIXEL TO EM / REM CONVERSION TABLE - Root Size: 16px   
+-----------------------------------------------------------------------------------------------------
+   PX   EM / REM |  PX   EM / REM |  PX   EM / REM |  PX   EM / REM |  PX   EM / REM |  PX   EM / REM
+-----------------------------------------------------------------------------------------------------
+   10 = 0.625    |  20 = 1.25     |  30 = 1.875    |  40 = 2.5      |  50 = 3.125    |  60 = 3.75
+   11 = 0.6875   |  21 = 1.3125   |  31 = 1.9375   |  41 = 2.5625   |  51 = 3.1875   |  61 = 3.8125
+   12 = 0.75     |  22 = 1.375    |  32 = 2        |  42 = 2.625    |  52 = 3.25     |  62 = 3.875
+   13 = 0.8125   |  23 = 1.4375   |  33 = 2.0625   |  43 = 2.6875   |  53 = 3.3125   |  63 = 3.9375
+   14 = 0.875    |  24 = 1.5      |  34 = 2.125    |  44 = 2.75     |  54 = 3.375    |  64 = 4
+   15 = 0.9375   |  25 = 1.5625   |  35 = 2.1875   |  45 = 2.8125   |  55 = 3.4375
+   16 = 1        |  26 = 1.625    |  36 = 2.25     |  46 = 2.875    |  56 = 3.5
+   17 = 1.0625   |  27 = 1.6875   |  37 = 2.3125   |  47 = 2.9375   |  57 = 3.5625
+   18 = 1.125    |  28 = 1.75     |  38 = 2.375    |  48 = 3        |  58 = 3.625
+   19 = 1.1875   |  29 = 1.8125   |  39 = 2.4375   |  49 = 3.0625   |  59 = 3.6875
+-----------------------------------------------------------------------------------------------------
+********************************************************************************************************/
+
+/* SPACES RELATED */
+.footer { padding: 4.5vw 0px; }
+.footer-left-wrapper .widget-wrapper:first-child { margin-bottom: 0.875rem; }
+/* FONT SIZES RELATED */
+.footer .widget-wrapper > h3, 
+.footer .widget-wrapper p, .footer .widget-wrapper a { font-size: 0.9375rem; }
+.footer-left-wrapper .widget-wrapper.widget_text:nth-child(2) p { font-size: 0.875rem; }
+
+/* DEFAULT AREA */
+footer { display: inline-block; float: left; clear: left; width: 100%; }
+
+/* FOOTER AREA */
+.footer { background: #202020; }
+.footer .widget-wrapper > h3 { margin-top: 0px; text-transform: uppercase; }
+.footer .widget-wrapper h3, .footer .widget-wrapper p,
+.footer .widget-wrapper a { color: #ffcb1f; }
+.footer .footer-left-wrapper .widget-wrapper p, .footer .footer-left-wrapper .widget-wrapper b,
+.footer .footer-left-wrapper .widget-wrapper strong { color: #fff; }
+.footer .footer-center-left-wrapper .widget-wrapper,
+.footer .footer-center-right-wrapper .widget-wrapper,
+.footer .footer-right-wrapper .widget-wrapper { padding-left: 18%; }
+.footer .widget-wrapper.widget_nav_menu ul,
+.footer .widget-wrapper.widget_nav_menu li { padding-left: 0px; margin-left: 0px; list-style: none; }
+.footer .widget-wrapper.widget_nav_menu li { float: left; width: 50%; }
+.footer .widget-wrapper.widget_nav_menu li a { color: #ffcb1f; font-weight: 700; text-transform: uppercase; }
+
+@media screen and (min-width: 1500px) {
+        
+        /* SPACES RELATED */
+        .footer { padding: 4.5rem 0px; }
+        .footer-left-wrapper .widget-wrapper:first-child { margin-bottom: 0.875rem; }
+        /* FONT SIZES RELATED */
+        .footer .widget-wrapper > h3, 
+        .footer .widget-wrapper p, .footer .widget-wrapper a { font-size: 0.9375rem; }
+        .footer-left-wrapper .widget-wrapper.widget_text:nth-child(2) p { font-size: 0.875rem; }
+}
+@media screen and (max-width: 1200px) and (min-width: 1101px) {
+    
+}
+@media screen and (max-width: 1100px) and (min-width: 992px) {
+
+}
+
+/* IPAD PRO */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+        
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+        
+}
+
+/* Landscape phone to portrait tablet */
+@media screen and (min-width: 992px ) {
+        
+        .footer .container { max-width: 90%; }
+}
+
+/* Landscape phone to portrait tablet */
+@media screen and (max-width: 991px ) {
+        
+        /* SPACES RELATED */
+        .footer { padding: 6.8vw 0px; }
+        .footer-left-wrapper .widget-wrapper:first-child { margin-bottom: 1.8vw; }
+        .footer .footer-left-wrapper, .footer .footer-center-left-wrapper, 
+        .footer .footer-center-right-wrapper { margin-bottom: 4.3vw; }
+        /* FONT SIZES RELATED */
+        .footer .widget-wrapper > h3, 
+        .footer .widget-wrapper p, .footer .widget-wrapper a { font-size: 2vw; }
+        .footer-left-wrapper .widget-wrapper.widget_text:nth-child(2) p { font-size: 1.8vw; }
+        
+        /* FOOTER AREA */
+        .footer .container > .row { margin: 0px; }
+        .footer .footer-inner-wrapper > div { padding-left: 0px; padding-right: 0px; }
+        .footer .footer-center-left-wrapper .widget-wrapper, .footer .footer-center-right-wrapper .widget-wrapper, 
+        .footer .footer-right-wrapper .widget-wrapper { padding-left: 0px; }
+        .footer .footer-left-wrapper, .footer .footer-center-left-wrapper, 
+        .footer .footer-center-right-wrapper, .footer .footer-right-wrapper { width: 50% !important; }
+}
+
+/* Landscape phone to portrait tablet */
+@media screen and (max-width: 768px ) {
+    
+}
+@media screen and (max-width: 767px ) {
+        
+}
+@media screen and (max-width: 736px){
+
+}
+@media screen and (max-width: 695px ) {
+
+        
+}	
+
+@media screen and (max-width: 667px){	
+       
+}
+@media screen and (max-width: 640px){
+        
+        /* SPACES RELATED */
+        .footer { padding: 13.6vw 0px; }
+        .footer-left-wrapper .widget-wrapper:first-child { margin-bottom: 3.6vw; }
+        .footer .footer-left-wrapper, .footer .footer-center-left-wrapper, 
+        .footer .footer-center-right-wrapper, .footer .footer-right-wrapper { margin-bottom: 8.6vw; }
+        /* FONT SIZES RELATED */
+        .footer .widget-wrapper > h3, 
+        .footer .widget-wrapper p, .footer .widget-wrapper a { font-size: 4vw; }
+        .footer-left-wrapper .widget-wrapper.widget_text:nth-child(2) p { font-size: 3.6vw; }
+        
+        /* FOOTER AREA */
+        .footer .footer-left-wrapper, .footer .footer-center-left-wrapper, 
+        .footer .footer-center-right-wrapper, .footer .footer-right-wrapper { padding-left: 0px; padding-right: 0px; order: 1; display: -webkit-box !important; display: -moz-flex !important; display: -ms-flexbox !important; display: -o-flexbox !important; display: flex !important; -webkit-flex-wrap: wrap !important; -ms-flex-wrap: wrap !important; -moz-flex-wrap: wrap !important; -o-flex-wrap: wrap !important; flex-wrap: wrap !important; width: 100% !important; }
+        .footer .footer-left-wrapper { margin-bottom: 0px; order: 4; }
+}
+@media screen and (max-width: 580px) {
+    
+}
+
+/* Landscape phones and down */
+@media screen and (max-width: 568px) {
+        
+}
+@media screen and (max-width: 480px) {
+
+        .footer .container { max-width: 80% !important; }
+}
+
+@media screen and (max-width: 420px) {
+        
+}
+@media screen and (max-width: 414px){
+        
+}
+@media screen and (max-width: 375px){
+        
+}
+@media screen and (max-width: 360px){
+        
+}

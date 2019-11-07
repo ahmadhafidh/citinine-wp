@@ -1,0 +1,1033 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Map List Pro v3.11.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-09 21:20-0000\n"
+"PO-Revision-Date: 2015-07-06 20:44:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#  3.6.16
+#: MapListProKO.php:501
+#@ maplistpro
+msgid "Search..."
+msgstr "Hledat..."
+
+#: MapListProKO.php:502
+#@ maplistpro
+msgid "Location..."
+msgstr "Umístění..."
+
+#: MapListProKO.php:561
+#@ maplistpro
+msgid "Add new map location"
+msgstr "Přidat nové místo na mapě"
+
+#: MapListProKO.php:562
+#@ maplistpro
+msgid "Edit map location"
+msgstr "Upravit místo na mapě"
+
+#: MapListProKO.php:563
+#@ maplistpro
+msgid "New map location"
+msgstr "Nové místo na mapě"
+
+#: MapListProKO.php:564
+#@ maplistpro
+msgid "View map location"
+msgstr "Zobrazit místo na mapě"
+
+#: MapListProKO.php:565
+#@ maplistpro
+msgid "Search maps"
+msgstr "Hledání na mapě"
+
+#: MapListProKO.php:573
+#@ maplistpro
+msgid "location"
+msgstr "misto"
+
+#: MapListProKO.php:836
+#@ maplistpro
+msgid "Address:"
+msgstr "Adresa:"
+
+#: MapListProKO.php:995
+#@ maplistpro
+msgid "Find location"
+msgstr "Hledat místo"
+
+#: MapListProKO.php:996
+#@ maplistpro
+msgid "Location picker"
+msgstr "Vybrat místo"
+
+#: MapListProKO.php:1000
+#@ maplistpro
+msgid "Latitude"
+msgstr "Zeměpisná šířka (lat)"
+
+#: MapListProKO.php:1005
+#@ maplistpro
+msgid "Longitude"
+msgstr "Zeměpisná délka (long)"
+
+#: MapListProKO.php:1010
+#@ maplistpro
+msgid "Short description"
+msgstr "Krátký popis"
+
+#: MapListProKO.php:1011
+#@ maplistpro
+msgid "This appears on the expanded items in the list"
+msgstr "To se objeví v rozbalených položkách seznamu"
+
+#: MapListProKO.php:1015
+#@ maplistpro
+msgid "Address"
+msgstr "Adresa"
+
+#: MapListProKO.php:1016
+#@ maplistpro
+msgid "Enter address"
+msgstr "Zvolit adresu"
+
+#: MapListProKO.php:1020
+#@ maplistpro
+msgid "Alternate web address"
+msgstr "Webová adresa"
+
+#: MapListProKO.php:1021
+#@ maplistpro
+msgid "(optional) A full website url (including http://)."
+msgstr "(optimálně) Celá webová adresa (včetně http://)."
+
+#: MapListProKO.php:1077
+#@ maplistpro
+msgid "Enter a location"
+msgstr "Zvolit místo"
+
+#: MapListProKO.php:1160
+#@ maplistpro
+msgid "Category icons"
+msgstr "Ikony kategorie"
+
+#: MapListProKO.php:1207
+#@ maplistpro
+msgid "Simple instructions:"
+msgstr "Jednoduché pokyny:"
+
+#: MapListProKO.php:1245
+#@ maplistpro
+msgid "<p>Click to expand and choose a custom icon colour. When there are multiple categories per location, categories at the top of the list show first. Drag and drop to set category order.</p>"
+msgstr "<p>Kliknutím rozbalte položku a vyberte barvu ikony. Pokud existuje více kategorií pro místo, kategorie nahoře v seznamu se zobrazí první.  Táhnutím a puštěním nastavíte pořadí kategorie. </p>"
+
+#: MapListProKO.php:1485
+#@ maplistpro
+msgid "Id"
+msgstr "Id"
+
+#: includes/shortcode_output.php:69
+#: includes/shortcode_output_split.php:80
+#@ maplistpro
+msgid "Title"
+msgstr "Název"
+
+#: MapListProKO.php:1497
+#: includes/shortcode_output.php:6
+#: includes/shortcode_output_split.php:6
+#@ maplistpro
+msgid "Categories"
+msgstr "Kategorie"
+
+#: MapListProKO.php:1531
+#@ maplistpro
+msgid "Uncategorized"
+msgstr "Nezařazené"
+
+#: MapListProKO.php:1631
+#@ maplistpro
+msgid "sunday"
+msgstr "neděle"
+
+#: MapListProKO.php:1634
+#@ maplistpro
+msgid "monday"
+msgstr "pondělí"
+
+#: MapListProKO.php:1637
+#@ maplistpro
+msgid "tuesday"
+msgstr "úterý"
+
+#: MapListProKO.php:1640
+#@ maplistpro
+msgid "wednesday"
+msgstr "středa"
+
+#: MapListProKO.php:1643
+#@ maplistpro
+msgid "thursday"
+msgstr "čtvrtek"
+
+#: MapListProKO.php:1646
+#@ maplistpro
+msgid "friday"
+msgstr "pátek"
+
+#: MapListProKO.php:1649
+#@ maplistpro
+msgid "saturday"
+msgstr "sobota"
+
+#: MapListProKO.php:2245
+#@ maplistpro
+msgid "location..."
+msgstr "umístění..."
+
+#: MapListProKO.php:2253
+#@ maplistpro
+msgid "No locations of selected type(s) found."
+msgstr "Žádná místa se ve zvoleném výběru nenachází"
+
+#: MapListProKO.php:2254
+#@ maplistpro
+msgid "No categories selected."
+msgstr "Nebyla vybrána kategorie."
+
+#: MapListProKO.php:775
+#: MapListProKO.php:2257
+#@ maplistpro
+msgid "Print directions"
+msgstr "Tisknout trasu"
+
+#: MapListProKO.php:2255
+#: includes/shortcode_output.php:31
+#: includes/shortcode_output_split.php:21
+#@ maplistpro
+msgid "No locations found."
+msgstr "Žádná místa nenalezena."
+
+#: MapListProKO.php:773
+#: MapListProKO.php:2256
+#@ maplistpro
+msgid "Geolocation is not supported by this browser."
+msgstr "Geolokace není podporována vaším prohlížečem"
+
+#: MapListProKO.php:2251
+#@ maplistpro
+msgid "Kms"
+msgstr "Km"
+
+#: MapListProKO.php:2252
+#@ maplistpro
+msgid "Miles"
+msgstr "Míle"
+
+#: MapListProKO.php:2258
+#@ maplistpro
+msgid "View location"
+msgstr "Zobrazit místo"
+
+#: MapListProKO.php:2247
+#@ maplistpro
+msgid "within"
+msgstr "uvnitř"
+
+#: MapListProKO.php:2248
+#: includes/shortcode_output.php:251
+#: includes/shortcode_output_split.php:290
+#@ maplistpro
+msgid "of"
+msgstr "z"
+
+#: includes/admin/CustomCategoryOrder.php:3
+#@ maplistpro
+msgid "Custom category icons"
+msgstr "Uživatelské ikony kategorie"
+
+#: includes/admin/CustomCategoryOrder.php:9
+#@ maplistpro
+msgid "Save options"
+msgstr "Uložit nastavení"
+
+#: includes/admin/SettingsPage.php:62
+#@ maplistpro
+msgid "Options saved"
+msgstr "Nastavení uloženo"
+
+#: includes/admin/SettingsPage.php:89
+#@ maplistpro
+msgid "Settings - Map List Pro"
+msgstr "Nastavení - Map List Pro"
+
+#: includes/admin/SettingsPage.php:95
+#@ maplistpro
+msgid "Styling"
+msgstr "Styl"
+
+#: includes/admin/SettingsPage.php:99
+#@ maplistpro
+msgid "Pick a style"
+msgstr "Zvolit styl"
+
+#: includes/admin/SettingsPage.php:125
+#@ maplistpro
+msgid "Paste your custom Google map styles in here (Javascript style array) "
+msgstr "Vložit vlastní mapu Google sem (Javascriptové pole)"
+
+#: includes/admin/SettingsPage.php:136
+#@ maplistpro
+msgid "Other options"
+msgstr "Další nastavení"
+
+#: includes/admin/SettingsPage.php:137
+#@ maplistpro
+msgid "These options are site wide and WILL override settings on individual lists."
+msgstr "Toto nastavení je pro celé stránky a přepíše nastavení v individuálních seznamech."
+
+#: includes/admin/SettingsPage.php:141
+#: includes/admin/SettingsPage.php:144
+#@ maplistpro
+msgid "Distance units"
+msgstr "Jednotky vzdálenosti"
+
+#: includes/admin/SettingsPage.php:147
+#@ maplistpro
+msgid "Imperial"
+msgstr "Moc"
+
+#: includes/admin/SettingsPage.php:148
+#@ maplistpro
+msgid "Metric"
+msgstr "Metrické"
+
+#: includes/admin/SettingsPage.php:169
+#@ maplistpro
+msgid "Enable full page view for locations"
+msgstr "Povolit celostránkové zobrazení míst"
+
+#: includes/admin/SettingsPage.php:170
+#@ maplistpro
+msgid "Enable full page view for locations."
+msgstr "Povolit celostránkové zobrazení míst."
+
+#: includes/admin/SettingsPage.php:180
+#: includes/admin/SettingsPage.php:181
+#@ maplistpro
+msgid "Disable styled infoboxes for maps."
+msgstr "Zakázat upravené infoboxy pro mapy."
+
+#: includes/admin/SettingsPage.php:211
+#: includes/admin/SettingsPage.php:213
+#@ maplistpro
+msgid "Override category label"
+msgstr "Změnit název kategorie"
+
+#: includes/admin/SettingsPage.php:222
+#: includes/admin/SettingsPage.php:223
+#@ maplistpro
+msgid "Google Map Language"
+msgstr "Jazyk Google Map"
+
+#: includes/admin/SettingsPage.php:227
+#@ maplistpro
+msgid "ENGLISH"
+msgstr "Angličtina"
+
+#: includes/admin/SettingsPage.php:228
+#@ maplistpro
+msgid "ARABIC"
+msgstr "Arabština"
+
+#: includes/admin/SettingsPage.php:229
+#@ maplistpro
+msgid "BASQUE"
+msgstr "Baskičina"
+
+#: includes/admin/SettingsPage.php:230
+#@ maplistpro
+msgid "BULGARIAN"
+msgstr "Bulharština"
+
+#: includes/admin/SettingsPage.php:231
+#@ maplistpro
+msgid "BENGALI"
+msgstr "Bengálština"
+
+#: includes/admin/SettingsPage.php:232
+#@ maplistpro
+msgid "CATALAN"
+msgstr "Katalánština"
+
+#: includes/admin/SettingsPage.php:233
+#@ maplistpro
+msgid "CZECH"
+msgstr "Čeština"
+
+#: includes/admin/SettingsPage.php:234
+#@ maplistpro
+msgid "DANISH"
+msgstr "Dánština"
+
+#: includes/admin/SettingsPage.php:235
+#@ maplistpro
+msgid "GERMAN"
+msgstr "Němčina"
+
+#: includes/admin/SettingsPage.php:236
+#@ maplistpro
+msgid "GREEK"
+msgstr "Řečtina"
+
+#: includes/admin/SettingsPage.php:237
+#@ maplistpro
+msgid "ENGLISH (AUSTRALIAN)"
+msgstr "Angličtina (Austrálie)"
+
+#: includes/admin/SettingsPage.php:238
+#@ maplistpro
+msgid "ENGLISH (GREAT BRITAIN)"
+msgstr "Angličtina (Velká Británie)"
+
+#: includes/admin/SettingsPage.php:239
+#@ maplistpro
+msgid "SPANISH"
+msgstr "Španělština"
+
+#: includes/admin/SettingsPage.php:240
+#@ maplistpro
+msgid "FARSI"
+msgstr "Perština"
+
+#: includes/admin/SettingsPage.php:241
+#@ maplistpro
+msgid "FINNISH"
+msgstr "Finština"
+
+#: includes/admin/SettingsPage.php:242
+#@ maplistpro
+msgid "FILIPINO"
+msgstr "Filipínština"
+
+#: includes/admin/SettingsPage.php:243
+#@ maplistpro
+msgid "FRENCH"
+msgstr "Francouzština"
+
+#: includes/admin/SettingsPage.php:244
+#@ maplistpro
+msgid "GALICIAN"
+msgstr "Galicijština"
+
+#: includes/admin/SettingsPage.php:245
+#@ maplistpro
+msgid "GUJARATI"
+msgstr "Gujarati"
+
+#: includes/admin/SettingsPage.php:246
+#@ maplistpro
+msgid "HINDI"
+msgstr "Hindština"
+
+#: includes/admin/SettingsPage.php:247
+#@ maplistpro
+msgid "CROATIAN"
+msgstr "Řečtina"
+
+#: includes/admin/SettingsPage.php:248
+#@ maplistpro
+msgid "HUNGARIAN"
+msgstr "Maďarština"
+
+#: includes/admin/SettingsPage.php:249
+#@ maplistpro
+msgid "INDONESIAN"
+msgstr "Indonéština"
+
+#: includes/admin/SettingsPage.php:250
+#@ maplistpro
+msgid "ITALIAN"
+msgstr "Italština"
+
+#: includes/admin/SettingsPage.php:251
+#@ maplistpro
+msgid "HEBREW"
+msgstr "Hebrejština"
+
+#: includes/admin/SettingsPage.php:252
+#@ maplistpro
+msgid "JAPANESE"
+msgstr "Japonština"
+
+#: includes/admin/SettingsPage.php:253
+#@ maplistpro
+msgid "KANNADA"
+msgstr "Kanadština"
+
+#: includes/admin/SettingsPage.php:254
+#@ maplistpro
+msgid "KOREAN"
+msgstr "Korejština"
+
+#: includes/admin/SettingsPage.php:255
+#@ maplistpro
+msgid "LITHUANIAN"
+msgstr "Litevština"
+
+#: includes/admin/SettingsPage.php:256
+#@ maplistpro
+msgid "LATVIAN"
+msgstr "Lotiština"
+
+#: includes/admin/SettingsPage.php:257
+#@ maplistpro
+msgid "MALAYALAM"
+msgstr "Malajálamština"
+
+#: includes/admin/SettingsPage.php:258
+#@ maplistpro
+msgid "MARATHI"
+msgstr "Maráthština"
+
+#: includes/admin/SettingsPage.php:259
+#@ maplistpro
+msgid "DUTCH"
+msgstr "Nizozemština"
+
+#: includes/admin/SettingsPage.php:260
+#@ maplistpro
+msgid "NORWEGIAN"
+msgstr "Norština"
+
+#: includes/admin/SettingsPage.php:261
+#@ maplistpro
+msgid "POLISH"
+msgstr "Polština"
+
+#: includes/admin/SettingsPage.php:262
+#@ maplistpro
+msgid "PORTUGUESE"
+msgstr "Portugalština"
+
+#: includes/admin/SettingsPage.php:263
+#@ maplistpro
+msgid "PORTUGUESE (BRAZIL)"
+msgstr "Portugalština (Brazílie)"
+
+#: includes/admin/SettingsPage.php:264
+#@ maplistpro
+msgid "PORTUGUESE (PORTUGAL)"
+msgstr "Portugalština (Portugalsko)"
+
+#: includes/admin/SettingsPage.php:265
+#@ maplistpro
+msgid "ROMANIAN"
+msgstr "Rumunština"
+
+#: includes/admin/SettingsPage.php:266
+#@ maplistpro
+msgid "RUSSIAN"
+msgstr "Ruština"
+
+#: includes/admin/SettingsPage.php:267
+#@ maplistpro
+msgid "SLOVAK"
+msgstr "Slovenština"
+
+#: includes/admin/SettingsPage.php:268
+#@ maplistpro
+msgid "SLOVENIAN"
+msgstr "Slovinština"
+
+#: includes/admin/SettingsPage.php:269
+#@ maplistpro
+msgid "SERBIAN"
+msgstr "Srbština"
+
+#: includes/admin/SettingsPage.php:270
+#@ maplistpro
+msgid "SWEDISH"
+msgstr "Švédština"
+
+#: includes/admin/SettingsPage.php:271
+#@ maplistpro
+msgid "TAGALOG"
+msgstr "Tagalogština"
+
+#: includes/admin/SettingsPage.php:272
+#@ maplistpro
+msgid "TAMIL"
+msgstr "Tamilština"
+
+#: includes/admin/SettingsPage.php:273
+#@ maplistpro
+msgid "TELUGU"
+msgstr "Telugština"
+
+#: includes/admin/SettingsPage.php:274
+#@ maplistpro
+msgid "THAI"
+msgstr "Thajština"
+
+#: includes/admin/SettingsPage.php:275
+#@ maplistpro
+msgid "TURKISH"
+msgstr "Turečtina"
+
+#: includes/admin/SettingsPage.php:276
+#@ maplistpro
+msgid "UKRAINIAN"
+msgstr "Ukrajinština"
+
+#: includes/admin/SettingsPage.php:277
+#@ maplistpro
+msgid "VIETNAMESE"
+msgstr "Vietnamština"
+
+#: includes/admin/SettingsPage.php:278
+#@ maplistpro
+msgid "CHINESE (SIMPLIFIED)"
+msgstr "Čínština (zjednodušená)"
+
+#: includes/admin/SettingsPage.php:279
+#@ maplistpro
+msgid "CHINESE (TRADITIONAL)"
+msgstr "Čínština (tradiční)"
+
+#: includes/admin/SettingsPage.php:287
+#@ maplistpro
+msgid "Default location for edit screen"
+msgstr "Výchozí umístění pro editační okno"
+
+#: includes/admin/SettingsPage.php:290
+#@ maplistpro
+msgid "Latitude:"
+msgstr "Zeměpisná šířka (lat):"
+
+#: includes/admin/SettingsPage.php:293
+#@ maplistpro
+msgid "Longitude:"
+msgstr "Zeměpisná délka (long):"
+
+#: includes/admin/SettingsPage.php:298
+#@ maplistpro
+msgid "Zoom"
+msgstr "Zvětšení"
+
+#: includes/admin/SettingsPage.php:299
+#@ maplistpro
+msgid "Please select"
+msgstr "Zvolte prosím"
+
+#: includes/admin/SettingsPage.php:326
+#@ maplistpro
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: includes/shortcode_output.php:66
+#: includes/shortcode_output.php:75
+#: includes/shortcode_output_split.php:77
+#: includes/shortcode_output_split.php:86
+#@ maplistpro
+msgid "Sort"
+msgstr "Seřadit"
+
+#: includes/shortcode_output.php:70
+#: includes/shortcode_output_split.php:81
+#@ maplistpro
+msgid "Distance"
+msgstr "Vzdálenost"
+
+#: includes/shortcode_output.php:88
+#: includes/shortcode_output_split.php:99
+#@ maplistpro
+msgid "Search locations"
+msgstr "Hledat místa"
+
+#: MapListProKO.php:852
+#: includes/shortcode_output.php:97
+#: includes/shortcode_output.php:105
+#: includes/shortcode_output.php:231
+#: includes/shortcode_output_split.php:108
+#: includes/shortcode_output_split.php:116
+#: includes/shortcode_output_split.php:262
+#@ maplistpro
+msgid "Go"
+msgstr "Hledat"
+
+#: includes/shortcode_output.php:102
+#: includes/shortcode_output_split.php:113
+#@ maplistpro
+msgid "Find locations near"
+msgstr "Najít nejbližší místa"
+
+#: cmb_metaboxes/init.php:258
+#: includes/shortcode_output.php:110
+#: includes/shortcode_output_split.php:121
+#@ default
+#@ maplistpro
+msgid "Clear"
+msgstr "Vyčistit"
+
+#: includes/shortcode_output.php:168
+#: includes/shortcode_output_split.php:42
+#@ maplistpro
+msgid "No matching locations"
+msgstr "Nebylo nalezeno žádné místo"
+
+#: includes/shortcode_output.php:168
+#: includes/shortcode_output.php:169
+#: includes/shortcode_output_split.php:42
+#: includes/shortcode_output_split.php:43
+#@ maplistpro
+msgid "Show all locations"
+msgstr "Zobrazit všechna místa"
+
+#: includes/shortcode_output.php:224
+#: includes/shortcode_output_split.php:252
+#@ maplistpro
+msgid "View location detail"
+msgstr "Zobrazit detail místa"
+
+#: MapListProKO.php:851
+#: includes/shortcode_output.php:230
+#: includes/shortcode_output_split.php:258
+#@ maplistpro
+msgid "Get directions from"
+msgstr "Najít trasu z"
+
+#: includes/shortcode_output.php:232
+#: includes/shortcode_output_split.php:263
+#@ maplistpro
+msgid "Geo locate me"
+msgstr "Zobrazit mé umístění"
+
+#: includes/shortcode_output.php:249
+#: includes/shortcode_output_split.php:288
+#@ maplistpro
+msgid "Next"
+msgstr "Další"
+
+#: includes/shortcode_output.php:251
+#: includes/shortcode_output_split.php:290
+#@ maplistpro
+msgid "Page"
+msgstr "Stránka"
+
+#: includes/shortcode_output.php:253
+#: includes/shortcode_output_split.php:292
+#@ maplistpro
+msgid "Prev"
+msgstr "Předchozí"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_ajax.php:47
+#@ cmb
+msgid "Please Try Again"
+msgstr "Zkuste to znovu, prosím"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_ajax.php:131
+#@ cmb
+msgid "Remove Embed"
+msgstr "Odstranit vložené"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+#@ cmb
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr "Nebyly nalezeny žádné vložené prvky pro %s. Zobrazit více informací o"
+
+#: MapListProKO.php:1001
+#@ maplistpro
+msgid "This should be in decimal format with no units (e.g. 51.508093)"
+msgstr "Uveďte v desetinném tvaru bez jednotek (např. 51.508093)"
+
+#: MapListProKO.php:1006
+#@ maplistpro
+msgid "This should be in decimal format (e.g. -0.087720)"
+msgstr "Uveďte v desetinném tvaru (např. -0.087720)"
+
+#: MapListProKO.php:988
+#@ maplistpro
+msgid "Location Details"
+msgstr "Detail umístění"
+
+#: MapListProKO.php:1025
+#@ maplistpro
+msgid "Custom icon"
+msgstr "Uživatelská ikona"
+
+#: MapListProKO.php:1026
+#@ maplistpro
+msgid "(optional) Pick an icon for this location - this will override the category markers."
+msgstr "(nejlépe) Vyberte ikonu pro místo - to bude přepsáno ikonou dané kategorie"
+
+#: MapListProKO.php:558
+#@ maplistpro
+msgctxt "Map locations general name"
+msgid "Map locations"
+msgstr ""
+
+#: MapListProKO.php:559
+#@ maplistpro
+msgctxt "Map locations singular name"
+msgid "Map location"
+msgstr ""
+
+#: MapListProKO.php:560
+#@ maplistpro
+msgctxt "maplist item"
+msgid "Add new"
+msgstr ""
+
+#: MapListProKO.php:583
+#: MapListProKO.php:597
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Location Categories"
+msgstr ""
+
+#: MapListProKO.php:584
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Location Category"
+msgstr ""
+
+#: MapListProKO.php:585
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Search Location Categories"
+msgstr ""
+
+#: MapListProKO.php:586
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Popular Location Categories"
+msgstr ""
+
+#: MapListProKO.php:587
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "All Location Categories"
+msgstr ""
+
+#: MapListProKO.php:588
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Parent Map Location Category"
+msgstr ""
+
+#: MapListProKO.php:589
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Parent Map Location Category:"
+msgstr ""
+
+#: MapListProKO.php:590
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Edit Map Location Category"
+msgstr ""
+
+#: MapListProKO.php:591
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Update Map Location Category"
+msgstr ""
+
+#: MapListProKO.php:592
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Add New Map Location Category"
+msgstr ""
+
+#: MapListProKO.php:593
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "New Map Location Category"
+msgstr ""
+
+#: MapListProKO.php:594
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Separate map location categories with commas"
+msgstr ""
+
+#: MapListProKO.php:595
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Add or remove map location categories"
+msgstr ""
+
+#: MapListProKO.php:596
+#@ maplistpro
+msgctxt "map_location categories"
+msgid "Choose from the most used map location categories"
+msgstr ""
+
+#: MapListProKO.php:855
+#@ maplistpro
+msgid "Unable to find any directions."
+msgstr ""
+
+#: MapListProKO.php:1490
+#@ default
+msgctxt "maplistpro"
+msgid "name"
+msgstr ""
+
+#: MapListProKO.php:1493
+#@ default
+msgctxt "column name"
+msgid ""
+msgstr ""
+
+#: MapListProKO.php:1495
+#@ default
+msgctxt "maplistpro"
+msgid "Title"
+msgstr ""
+
+#: MapListProKO.php:1496
+#@ default
+msgctxt "maplistpro"
+msgid "Address"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_field.php:459
+#@ cmb
+msgid "Add Group"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_field.php:460
+#@ cmb
+msgid "Remove Group"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:250
+#@ cmb
+msgid "Add Row"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:306
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:768
+#@ cmb
+msgid "Remove"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:601
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:635
+#@ cmb
+msgid "No terms"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:674
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:728
+#@ cmb
+msgid "Add or Upload File"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:695
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:760
+#@ cmb
+msgid "Remove Image"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:768
+#@ cmb
+msgid "File:"
+msgstr ""
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:768
+#@ cmb
+msgid "Download"
+msgstr ""
+
+#: cmb_metaboxes/init.php:259
+#@ default
+msgid "Default"
+msgstr ""
+
+#: cmb_metaboxes/init.php:260
+#@ default
+msgid "Select Color"
+msgstr ""
+
+#: cmb_metaboxes/init.php:261
+#@ default
+msgid "Current Color"
+msgstr ""
+
+#: cmb_metaboxes/init.php:288
+#@ cmb
+msgid "Select / Deselect All"
+msgstr ""
+
+#: cmb_metaboxes/init.php:1177
+#@ default
+msgid "Save"
+msgstr ""
+
+#: includes/admin/SettingsPage.php:177
+#@ maplistpro
+msgid "Pop up windows"
+msgstr ""
+
+#: includes/admin/SettingsPage.php:189
+#@ maplistpro
+msgid "InfoBox"
+msgstr ""
+
+#: includes/admin/SettingsPage.php:190
+#@ maplistpro
+msgid "InfoBubble"
+msgstr ""
+
+#: includes/admin/SettingsPage.php:201
+#@ maplistpro
+msgid "Directions option on detail page"
+msgstr ""
+
+#: includes/admin/SettingsPage.php:204
+#@ maplistpro
+msgid "Show the get directions option on detail pages."
+msgstr ""
+
+#: includes/admin/SettingsPage.php:205
+#@ maplistpro
+msgid "Show get directions option on detail pages."
+msgstr ""
+
+#: includes/admin/SettingsPage.php:159
+#@ maplistpro
+msgid "Enable comments on detail page (must be supported by theme)"
+msgstr ""
+
+#: includes/admin/SettingsPage.php:160
+#@ maplistpro
+msgid "Enable comments on detail page (must be supported by theme)."
+msgstr ""
+
+#: includes/shortcode_output.php:169
+#: includes/shortcode_output_split.php:43
+#@ maplistpro
+msgid "No location found"
+msgstr ""
+

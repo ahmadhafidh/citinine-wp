@@ -1,0 +1,858 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Map List Pro v3.11.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-09 21:20-0000\n"
+"PO-Revision-Date: Mon Nov 16 2015 21:32:02 GMT+0000 (GMT Standard Time)\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: English (UK)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Loco-Source-Locale: en_GB\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: en_GB"
+
+# 3.6.16
+#: MapListProKO.php:501
+msgid "Search..."
+msgstr ""
+
+#: MapListProKO.php:502
+msgid "Location..."
+msgstr "Location..."
+
+#: MapListProKO.php:561
+msgid "Add new map location"
+msgstr "Add new map location"
+
+#: MapListProKO.php:562
+msgid "Edit map location"
+msgstr "Edit map location"
+
+#: MapListProKO.php:563
+msgid "New map location"
+msgstr "New map location"
+
+#: MapListProKO.php:564
+msgid "View map location"
+msgstr "View map location"
+
+#: MapListProKO.php:565
+msgid "Search maps"
+msgstr "Search maps"
+
+#: MapListProKO.php:573
+msgid "location"
+msgstr "location"
+
+#: MapListProKO.php:836
+msgid "Address:"
+msgstr "Address:"
+
+#: MapListProKO.php:995
+msgid "Find location"
+msgstr "Find location"
+
+#: MapListProKO.php:996
+msgid "Location picker"
+msgstr "Location picker"
+
+#: MapListProKO.php:1000
+msgid "Latitude"
+msgstr "Latitude"
+
+#: MapListProKO.php:1005
+msgid "Longitude"
+msgstr "Longitude"
+
+#: MapListProKO.php:1010
+msgid "Short description"
+msgstr "Short description"
+
+#: MapListProKO.php:1011
+msgid "This appears on the expanded items in the list"
+msgstr "This appears on the expanded items in the list"
+
+#: MapListProKO.php:1015
+msgid "Address"
+msgstr "Address"
+
+#: MapListProKO.php:1016
+msgid "Enter address"
+msgstr "Enter address"
+
+#: MapListProKO.php:1020
+msgid "Alternate web address"
+msgstr "Alternate web address"
+
+#: MapListProKO.php:1021
+msgid "(optional) A full website url (including http://)."
+msgstr "(optional) A full website url (including http://)."
+
+#: MapListProKO.php:1077
+msgid "Enter a location"
+msgstr "Enter a location"
+
+#: MapListProKO.php:1160
+msgid "Category icons"
+msgstr "Category icons"
+
+#: MapListProKO.php:1207
+msgid "Simple instructions:"
+msgstr "Simple instructions:"
+
+#: MapListProKO.php:1245
+msgid ""
+"<p>Click to expand and choose a custom icon colour. When there are multiple "
+"categories per location, categories at the top of the list show first. Drag "
+"and drop to set category order.</p>"
+msgstr ""
+"<p>Click to expand and choose a custom icon colour. When there are multiple "
+"categories per location, categories at the top of the list show first. Drag "
+"and drop to set category order.</p>"
+
+#: MapListProKO.php:1485
+msgid "Id"
+msgstr "Id"
+
+#: includes/shortcode_output.php:69
+#: includes/shortcode_output_split.php:80
+msgid "Title"
+msgstr "Title"
+
+#: MapListProKO.php:1497
+#: includes/shortcode_output.php:6
+#: includes/shortcode_output_split.php:6
+msgid "Categories"
+msgstr "Categories"
+
+#: MapListProKO.php:1531
+msgid "Uncategorized"
+msgstr "Uncategorized"
+
+#: MapListProKO.php:1631
+msgid "sunday"
+msgstr "sunday"
+
+#: MapListProKO.php:1634
+msgid "monday"
+msgstr "monday"
+
+#: MapListProKO.php:1637
+msgid "tuesday"
+msgstr "tuesday"
+
+#: MapListProKO.php:1640
+msgid "wednesday"
+msgstr "wednesday"
+
+#: MapListProKO.php:1643
+msgid "thursday"
+msgstr "thursday"
+
+#: MapListProKO.php:1646
+msgid "friday"
+msgstr "friday"
+
+#: MapListProKO.php:1649
+msgid "saturday"
+msgstr "saturday"
+
+#: MapListProKO.php:2245
+msgid "location..."
+msgstr "location..."
+
+#: MapListProKO.php:2253
+msgid "No locations of selected type(s) found."
+msgstr "No locations of selected type(s) found."
+
+#: MapListProKO.php:2254
+msgid "No categories selected."
+msgstr "No categories selected."
+
+#: MapListProKO.php:775
+#: MapListProKO.php:2257
+msgid "Print directions"
+msgstr "Print directions"
+
+#: MapListProKO.php:2255
+#: includes/shortcode_output.php:31
+#: includes/shortcode_output_split.php:21
+msgid "No locations found."
+msgstr "No locations found."
+
+#: MapListProKO.php:773
+#: MapListProKO.php:2256
+msgid "Geolocation is not supported by this browser."
+msgstr "Geolocation is not supported by this browser."
+
+#: MapListProKO.php:2251
+msgid "Kms"
+msgstr "Kms"
+
+#: MapListProKO.php:2252
+msgid "Miles"
+msgstr "Miles"
+
+#: MapListProKO.php:2258
+msgid "View location"
+msgstr "View location"
+
+#: MapListProKO.php:2247
+msgid "within"
+msgstr "within"
+
+#: MapListProKO.php:2248
+#: includes/shortcode_output.php:251
+#: includes/shortcode_output_split.php:290
+msgid "of"
+msgstr "of"
+
+#: includes/admin/CustomCategoryOrder.php:3
+msgid "Custom category icons"
+msgstr "Custom category icons"
+
+#: includes/admin/CustomCategoryOrder.php:9
+msgid "Save options"
+msgstr "Save options"
+
+#: includes/admin/SettingsPage.php:62
+msgid "Options saved"
+msgstr "Options saved"
+
+#: includes/admin/SettingsPage.php:89
+msgid "Settings - Map List Pro"
+msgstr "Settings - Map List Pro"
+
+#: includes/admin/SettingsPage.php:95
+msgid "Styling"
+msgstr "Styling"
+
+#: includes/admin/SettingsPage.php:99
+msgid "Pick a style"
+msgstr "Pick a style"
+
+#: includes/admin/SettingsPage.php:125
+msgid "Paste your custom Google map styles in here (Javascript style array) "
+msgstr "Paste your custom Google map styles in here (Javascript style array) "
+
+#: includes/admin/SettingsPage.php:136
+msgid "Other options"
+msgstr "Other options"
+
+#: includes/admin/SettingsPage.php:137
+msgid "These options are site wide and WILL override settings on individual lists."
+msgstr "These options are site wide and WILL override settings on individual lists."
+
+#: includes/admin/SettingsPage.php:141
+#: includes/admin/SettingsPage.php:144
+msgid "Distance units"
+msgstr "Distance units"
+
+#: includes/admin/SettingsPage.php:147
+msgid "Imperial"
+msgstr "Imperial"
+
+#: includes/admin/SettingsPage.php:148
+msgid "Metric"
+msgstr "Metric"
+
+#: includes/admin/SettingsPage.php:169
+msgid "Enable full page view for locations"
+msgstr "Enable full page view for locations"
+
+#: includes/admin/SettingsPage.php:170
+msgid "Enable full page view for locations."
+msgstr "Enable full page view for locations."
+
+#: includes/admin/SettingsPage.php:180
+#: includes/admin/SettingsPage.php:181
+msgid "Disable styled infoboxes for maps."
+msgstr "Disable styled infoboxes for maps."
+
+#: includes/admin/SettingsPage.php:211
+#: includes/admin/SettingsPage.php:213
+msgid "Override category label"
+msgstr "Override category label"
+
+#: includes/admin/SettingsPage.php:222
+#: includes/admin/SettingsPage.php:223
+msgid "Google Map Language"
+msgstr "Google Map Language"
+
+#: includes/admin/SettingsPage.php:227
+msgid "ENGLISH"
+msgstr "ENGLISH"
+
+#: includes/admin/SettingsPage.php:228
+msgid "ARABIC"
+msgstr "ARABIC"
+
+#: includes/admin/SettingsPage.php:229
+msgid "BASQUE"
+msgstr "BASQUE"
+
+#: includes/admin/SettingsPage.php:230
+msgid "BULGARIAN"
+msgstr "BULGARIAN"
+
+#: includes/admin/SettingsPage.php:231
+msgid "BENGALI"
+msgstr "BENGALI"
+
+#: includes/admin/SettingsPage.php:232
+msgid "CATALAN"
+msgstr "CATALAN"
+
+#: includes/admin/SettingsPage.php:233
+msgid "CZECH"
+msgstr "CZECH"
+
+#: includes/admin/SettingsPage.php:234
+msgid "DANISH"
+msgstr "DANISH"
+
+#: includes/admin/SettingsPage.php:235
+msgid "GERMAN"
+msgstr "GERMAN"
+
+#: includes/admin/SettingsPage.php:236
+msgid "GREEK"
+msgstr "GREEK"
+
+#: includes/admin/SettingsPage.php:237
+msgid "ENGLISH (AUSTRALIAN)"
+msgstr "ENGLISH (AUSTRALIAN)"
+
+#: includes/admin/SettingsPage.php:238
+msgid "ENGLISH (GREAT BRITAIN)"
+msgstr "ENGLISH (GREAT BRITAIN)"
+
+#: includes/admin/SettingsPage.php:239
+msgid "SPANISH"
+msgstr "SPANISH"
+
+#: includes/admin/SettingsPage.php:240
+msgid "FARSI"
+msgstr "FARSI"
+
+#: includes/admin/SettingsPage.php:241
+msgid "FINNISH"
+msgstr "FINNISH"
+
+#: includes/admin/SettingsPage.php:242
+msgid "FILIPINO"
+msgstr "FILIPINO"
+
+#: includes/admin/SettingsPage.php:243
+msgid "FRENCH"
+msgstr "FRENCH"
+
+#: includes/admin/SettingsPage.php:244
+msgid "GALICIAN"
+msgstr "GALICIAN"
+
+#: includes/admin/SettingsPage.php:245
+msgid "GUJARATI"
+msgstr "GUJARATI"
+
+#: includes/admin/SettingsPage.php:246
+msgid "HINDI"
+msgstr "HINDI"
+
+#: includes/admin/SettingsPage.php:247
+msgid "CROATIAN"
+msgstr "CROATIAN"
+
+#: includes/admin/SettingsPage.php:248
+msgid "HUNGARIAN"
+msgstr "HUNGARIAN"
+
+#: includes/admin/SettingsPage.php:249
+msgid "INDONESIAN"
+msgstr "INDONESIAN"
+
+#: includes/admin/SettingsPage.php:250
+msgid "ITALIAN"
+msgstr "ITALIAN"
+
+#: includes/admin/SettingsPage.php:251
+msgid "HEBREW"
+msgstr "HEBREW"
+
+#: includes/admin/SettingsPage.php:252
+msgid "JAPANESE"
+msgstr "JAPANESE"
+
+#: includes/admin/SettingsPage.php:253
+msgid "KANNADA"
+msgstr "KANNADA"
+
+#: includes/admin/SettingsPage.php:254
+msgid "KOREAN"
+msgstr "KOREAN"
+
+#: includes/admin/SettingsPage.php:255
+msgid "LITHUANIAN"
+msgstr "LITHUANIAN"
+
+#: includes/admin/SettingsPage.php:256
+msgid "LATVIAN"
+msgstr "LATVIAN"
+
+#: includes/admin/SettingsPage.php:257
+msgid "MALAYALAM"
+msgstr "MALAYALAM"
+
+#: includes/admin/SettingsPage.php:258
+msgid "MARATHI"
+msgstr "MARATHI"
+
+#: includes/admin/SettingsPage.php:259
+msgid "DUTCH"
+msgstr "DUTCH"
+
+#: includes/admin/SettingsPage.php:260
+msgid "NORWEGIAN"
+msgstr "NORWEGIAN"
+
+#: includes/admin/SettingsPage.php:261
+msgid "POLISH"
+msgstr "POLISH"
+
+#: includes/admin/SettingsPage.php:262
+msgid "PORTUGUESE"
+msgstr "PORTUGUESE"
+
+#: includes/admin/SettingsPage.php:263
+msgid "PORTUGUESE (BRAZIL)"
+msgstr "PORTUGUESE (BRAZIL)"
+
+#: includes/admin/SettingsPage.php:264
+msgid "PORTUGUESE (PORTUGAL)"
+msgstr "PORTUGUESE (PORTUGAL)"
+
+#: includes/admin/SettingsPage.php:265
+msgid "ROMANIAN"
+msgstr "ROMANIAN"
+
+#: includes/admin/SettingsPage.php:266
+msgid "RUSSIAN"
+msgstr "RUSSIAN"
+
+#: includes/admin/SettingsPage.php:267
+msgid "SLOVAK"
+msgstr "SLOVAK"
+
+#: includes/admin/SettingsPage.php:268
+msgid "SLOVENIAN"
+msgstr "SLOVENIAN"
+
+#: includes/admin/SettingsPage.php:269
+msgid "SERBIAN"
+msgstr "SERBIAN"
+
+#: includes/admin/SettingsPage.php:270
+msgid "SWEDISH"
+msgstr "SWEDISH"
+
+#: includes/admin/SettingsPage.php:271
+msgid "TAGALOG"
+msgstr "TAGALOG"
+
+#: includes/admin/SettingsPage.php:272
+msgid "TAMIL"
+msgstr "TAMIL"
+
+#: includes/admin/SettingsPage.php:273
+msgid "TELUGU"
+msgstr "TELUGU"
+
+#: includes/admin/SettingsPage.php:274
+msgid "THAI"
+msgstr "THAI"
+
+#: includes/admin/SettingsPage.php:275
+msgid "TURKISH"
+msgstr "TURKISH"
+
+#: includes/admin/SettingsPage.php:276
+msgid "UKRAINIAN"
+msgstr "UKRAINIAN"
+
+#: includes/admin/SettingsPage.php:277
+msgid "VIETNAMESE"
+msgstr "VIETNAMESE"
+
+#: includes/admin/SettingsPage.php:278
+msgid "CHINESE (SIMPLIFIED)"
+msgstr "CHINESE (SIMPLIFIED)"
+
+#: includes/admin/SettingsPage.php:279
+msgid "CHINESE (TRADITIONAL)"
+msgstr "CHINESE (TRADITIONAL)"
+
+#: includes/admin/SettingsPage.php:287
+msgid "Default location for edit screen"
+msgstr "Default location for edit screen"
+
+#: includes/admin/SettingsPage.php:290
+msgid "Latitude:"
+msgstr "Latitude:"
+
+#: includes/admin/SettingsPage.php:293
+msgid "Longitude:"
+msgstr "Longitude:"
+
+#: includes/admin/SettingsPage.php:298
+msgid "Zoom"
+msgstr "Zoom"
+
+#: includes/admin/SettingsPage.php:299
+msgid "Please select"
+msgstr "Please select"
+
+#: includes/admin/SettingsPage.php:326
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: includes/shortcode_output.php:66
+#: includes/shortcode_output.php:75
+#: includes/shortcode_output_split.php:77
+#: includes/shortcode_output_split.php:86
+msgid "Sort"
+msgstr "Sort"
+
+#: includes/shortcode_output.php:70
+#: includes/shortcode_output_split.php:81
+msgid "Distance"
+msgstr "Distance"
+
+#: includes/shortcode_output.php:88
+#: includes/shortcode_output_split.php:99
+msgid "Search locations"
+msgstr "Search locations"
+
+#: MapListProKO.php:852
+#: includes/shortcode_output.php:97
+#: includes/shortcode_output.php:105
+#: includes/shortcode_output.php:231
+#: includes/shortcode_output_split.php:108
+#: includes/shortcode_output_split.php:116
+#: includes/shortcode_output_split.php:262
+msgid "Go"
+msgstr "Go"
+
+#: includes/shortcode_output.php:102
+#: includes/shortcode_output_split.php:113
+msgid "Find locations near"
+msgstr "Find locations near"
+
+#: cmb_metaboxes/init.php:258
+#: includes/shortcode_output.php:110
+#: includes/shortcode_output_split.php:121
+msgid "Clear"
+msgstr "Clear"
+
+#: includes/shortcode_output.php:168
+#: includes/shortcode_output_split.php:42
+msgid "No matching locations"
+msgstr "No matching locations"
+
+#: includes/shortcode_output.php:168
+#: includes/shortcode_output.php:169
+#: includes/shortcode_output_split.php:42
+#: includes/shortcode_output_split.php:43
+msgid "Show all locations"
+msgstr "Show all locations"
+
+#: includes/shortcode_output.php:224
+#: includes/shortcode_output_split.php:252
+msgid "View location detail"
+msgstr "View location detail"
+
+#: MapListProKO.php:851
+#: includes/shortcode_output.php:230
+#: includes/shortcode_output_split.php:258
+msgid "Get directions from"
+msgstr "Get directions from"
+
+#: includes/shortcode_output.php:232
+#: includes/shortcode_output_split.php:263
+msgid "Geo locate me"
+msgstr "Geo locate me"
+
+#: includes/shortcode_output.php:249
+#: includes/shortcode_output_split.php:288
+msgid "Next"
+msgstr "Next"
+
+#: includes/shortcode_output.php:251
+#: includes/shortcode_output_split.php:290
+msgid "Page"
+msgstr "Page"
+
+#: includes/shortcode_output.php:253
+#: includes/shortcode_output_split.php:292
+msgid "Prev"
+msgstr "Prev"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr "Please Try Again"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr "Remove Embed"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr "No oEmbed Results Found for %s. View more info at"
+
+#: MapListProKO.php:558
+msgctxt "Map locations general name"
+msgid "Map locations"
+msgstr "Map locations"
+
+#: MapListProKO.php:559
+msgctxt "Map locations singular name"
+msgid "Map location"
+msgstr "Map location"
+
+#: MapListProKO.php:560
+msgctxt "maplist item"
+msgid "Add new"
+msgstr "Add new"
+
+#: MapListProKO.php:583
+#: MapListProKO.php:597
+msgctxt "map_location categories"
+msgid "Location Categories"
+msgstr "Location Categories"
+
+#: MapListProKO.php:584
+msgctxt "map_location categories"
+msgid "Location Category"
+msgstr "Location Category"
+
+#: MapListProKO.php:585
+msgctxt "map_location categories"
+msgid "Search Location Categories"
+msgstr "Search Location Categories"
+
+#: MapListProKO.php:586
+msgctxt "map_location categories"
+msgid "Popular Location Categories"
+msgstr "Popular Location Categories"
+
+#: MapListProKO.php:587
+msgctxt "map_location categories"
+msgid "All Location Categories"
+msgstr "All Location Categories"
+
+#: MapListProKO.php:588
+msgctxt "map_location categories"
+msgid "Parent Map Location Category"
+msgstr "Parent Map Location Category"
+
+#: MapListProKO.php:589
+msgctxt "map_location categories"
+msgid "Parent Map Location Category:"
+msgstr "Parent Map Location Category:"
+
+#: MapListProKO.php:590
+msgctxt "map_location categories"
+msgid "Edit Map Location Category"
+msgstr "Edit Map Location Category"
+
+#: MapListProKO.php:591
+msgctxt "map_location categories"
+msgid "Update Map Location Category"
+msgstr "Update Map Location Category"
+
+#: MapListProKO.php:592
+msgctxt "map_location categories"
+msgid "Add New Map Location Category"
+msgstr "Add New Map Location Category"
+
+#: MapListProKO.php:593
+msgctxt "map_location categories"
+msgid "New Map Location Category"
+msgstr "New Map Location Category"
+
+#: MapListProKO.php:594
+msgctxt "map_location categories"
+msgid "Separate map location categories with commas"
+msgstr "Separate map location categories with commas"
+
+#: MapListProKO.php:595
+msgctxt "map_location categories"
+msgid "Add or remove map location categories"
+msgstr "Add or remove map location categories"
+
+#: MapListProKO.php:596
+msgctxt "map_location categories"
+msgid "Choose from the most used map location categories"
+msgstr "Choose from the most used map location categories"
+
+#: MapListProKO.php:855
+msgid "Unable to find any directions."
+msgstr "Unable to find any directions."
+
+#: MapListProKO.php:988
+msgid "Location Details"
+msgstr "Location Details"
+
+#: MapListProKO.php:1001
+msgid "This should be in decimal format with no units (e.g. 51.508093)"
+msgstr "This should be in decimal format with no units (e.g. 51.508093)"
+
+#: MapListProKO.php:1006
+msgid "This should be in decimal format (e.g. -0.087720)"
+msgstr "This should be in decimal format (e.g. -0.087720)"
+
+#: MapListProKO.php:1025
+msgid "Custom icon"
+msgstr "Custom icon"
+
+#: MapListProKO.php:1026
+msgid ""
+"(optional) Pick an icon for this location - this will override the category "
+"markers."
+msgstr ""
+"(optional) Pick an icon for this location - this will override the category "
+"markers."
+
+#: MapListProKO.php:1490
+msgctxt "maplistpro"
+msgid "name"
+msgstr "name"
+
+#: MapListProKO.php:1493
+msgctxt "column name"
+msgid ""
+msgstr ""
+
+#: MapListProKO.php:1495
+msgctxt "maplistpro"
+msgid "Title"
+msgstr "Title"
+
+#: MapListProKO.php:1496
+msgctxt "maplistpro"
+msgid "Address"
+msgstr "Address"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_field.php:459
+msgid "Add Group"
+msgstr "Add Group"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_field.php:460
+msgid "Remove Group"
+msgstr "Remove Group"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:250
+msgid "Add Row"
+msgstr "Add Row"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:306
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:768
+msgid "Remove"
+msgstr "Remove"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:601
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:635
+msgid "No terms"
+msgstr "No terms"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:674
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:728
+msgid "Add or Upload File"
+msgstr "Add or Upload File"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:695
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:760
+msgid "Remove Image"
+msgstr "Remove Image"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:768
+msgid "File:"
+msgstr "File:"
+
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: cmb_metaboxes/helpers/cmb_Meta_Box_types.php:768
+msgid "Download"
+msgstr "Download"
+
+#: cmb_metaboxes/init.php:259
+msgid "Default"
+msgstr "Default"
+
+#: cmb_metaboxes/init.php:260
+msgid "Select Color"
+msgstr "Select Color"
+
+#: cmb_metaboxes/init.php:261
+msgid "Current Color"
+msgstr "Current Color"
+
+#: cmb_metaboxes/init.php:288
+msgid "Select / Deselect All"
+msgstr "Select / Deselect All"
+
+#: cmb_metaboxes/init.php:1177
+msgid "Save"
+msgstr "Save"
+
+#: includes/admin/SettingsPage.php:177
+msgid "Pop up windows"
+msgstr "Pop up windows"
+
+#: includes/admin/SettingsPage.php:189
+msgid "InfoBox"
+msgstr "InfoBox"
+
+#: includes/admin/SettingsPage.php:190
+msgid "InfoBubble"
+msgstr "InfoBubble"
+
+#: includes/admin/SettingsPage.php:201
+msgid "Directions option on detail page"
+msgstr "Directions option on detail page"
+
+#: includes/admin/SettingsPage.php:204
+msgid "Show the get directions option on detail pages."
+msgstr "Show the get directions option on detail pages."
+
+#: includes/admin/SettingsPage.php:205
+msgid "Show get directions option on detail pages."
+msgstr "Show get directions option on detail pages."
+
+#: includes/admin/SettingsPage.php:159
+msgid "Enable comments on detail page (must be supported by theme)"
+msgstr "Enable comments on detail page (must be supported by theme)"
+
+#: includes/admin/SettingsPage.php:160
+msgid "Enable comments on detail page (must be supported by theme)."
+msgstr "Enable comments on detail page (must be supported by theme)."
+
+#: includes/shortcode_output.php:169
+#: includes/shortcode_output_split.php:43
+msgid "No location found"
+msgstr "No location found"

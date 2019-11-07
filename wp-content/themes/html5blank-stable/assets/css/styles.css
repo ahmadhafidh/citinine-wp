@@ -1,0 +1,103 @@
+/********************************************************************************************************
+    PIXEL TO REM CONVERSION TABLE - Root Size: 16px
+---------------------------------------------------------------------------------------------------------
+    PX   REM / EM |  PX   REM / EM |  PX   REM / EM |  PX   REM / EM |  PX   REM     |  PX   REM / EM
+---------------------------------------------------------------------------------------------------------
+    10 = 0.625    |  20 = 1.25     |  30 = 1.875    |  40 = 2.5      |  50 = 3.125   |  60 = 3.75
+    11 = 0.6875   |  21 = 1.3125   |  31 = 1.9375   |  41 = 2.5625   |  51 = 3.1875  |  61 = 3.8125
+    12 = 0.75     |  22 = 1.375    |  32 = 2        |  42 = 2.625    |  52 = 3.25    |  62 = 3.875
+    13 = 0.8125   |  23 = 1.4375   |  33 = 2.0625   |  43 = 2.6875   |  53 = 3.3125  |  63 = 3.9375
+    14 = 0.875    |  24 = 1.5      |  34 = 2.125    |  44 = 2.75     |  54 = 3.375   |  64 = 4
+    15 = 0.9375   |  25 = 1.5625   |  35 = 2.1875   |  45 = 2.8125   |  55 = 3.4375
+    16 = 1        |  26 = 1.625    |  36 = 2.25     |  46 = 2.875    |  56 = 3.5
+    17 = 1.0625   |  27 = 1.6875   |  37 = 2.3125   |  47 = 2.9375   |  57 = 3.5625
+    18 = 1.125    |  28 = 1.75     |  38 = 2.375    |  48 = 3        |  58 = 3.625
+    19 = 1.1875   |  29 = 1.8125   |  39 = 2.4375   |  49 = 3.0625   |  59 = 3.6875
+---------------------------------------------------------------------------------------------------------
+*********************************************************************************************************/
+
+@import "fonts/fonts.css";
+
+/* DEFAULT RELATED CLASSES */
+.fa { font-family: FontAwesome !important; }
+.montserrat { font-family: "Montserrat", sans-serif !important; }
+.meriweather { font-family: 'Merriweather', serif !important; }
+
+/* DEFAULT FONTS AREA */
+.page-title, .project-title, .post-title,
+.page-title a, .project-title a, .post-title a { font-family: 'Merriweather', serif !important; }
+
+/* COLORS RELATED */
+.white,
+.white-text-column h1, .white-text-column h2, .white-text-column h3, .white-text-column h4, .white-text-column h5,
+.white-text-column p { color: #fff !important; }
+.black { color: #000 !important; }
+.gray { color: #787885 !important; }
+.yellow { color: #ffcb1f !important; }
+.blue { color: #272761 !important; }
+
+/* BUTTONS RELATED */
+.white-border-btn,
+a.gray-border-btn, 
+.gray-border-btn a,
+.gray-border-btn button { padding: 0.25em 0.75em; color: #fff; text-transform: uppercase; font-weight: 700; font-family: 'Merriweather', serif; border: 1px solid #fff; border-radius: 10px; }
+.white-border-btn:hover { color: #fff; }
+a.gray-border-btn, .gray-border-btn a, .gray-border-btn button { padding: 0.5em 0.75em !important; color: #787885 !important; border-color: #787885 !important; background: none !important; }
+a.gray-border-btn, .gray-border-btn a:hover, .gray-border-btn button:hover { color: #fff !important; background: #787885 !important; }
+
+/* RESET PADDING & MARGIN */
+.container { float: none !important; }
+.no-side-padding { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; }
+
+/* DEFAULT TAG RESET */
+a { display: inline-block; text-decoration: none; outline: 0px; cursor: pointer; }
+a:hover, a:focus, a:active { text-decoration: none; }
+img { display: inline-block; max-width: 100%; }
+img.cover-bg { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; }
+
+/* DEFAULT CLASSES */
+.desktop-only { display: inline-block; }
+.mobile-only { display: none !important; }
+.full-wrap { position: relative; display: inline-block; float: left; clear: left; width: 100%; }
+.row-eq-height { display: -webkit-box !important; display: -moz-flex !important; display: -ms-flexbox !important; display: -o-flexbox !important; display: flex !important; -webkit-flex-wrap: wrap !important; -ms-flex-wrap: wrap !important; -moz-flex-wrap: wrap !important; -o-flex-wrap: wrap !important; flex-wrap: wrap !important; }
+
+* { font-family: "Montserrat", sans-serif; }
+html, body { float: left; padding: 0px; margin: 0px; width: 100%; font-size: 16px; }
+
+.body-wrapper { float: left; padding: 0px; margin: 0px; width: 100%; }
+.main-wrapper { margin  : 0 auto; width: 960px; overflow: hidden; }   
+
+/* VC RELATED */
+.wpb_wrapper, .wpb_content_element { /* float: left; clear: left; */ display: inline-block; max-width: 100%; }
+.vc_row[data-vc-full-width] { left: 0px !important; }
+.wpb_wrapper,
+.fullwidth-row, .fullwidth-column > .vc_column-inner > .wpb_wrapper,
+.vc_row.wpb_row:not(.container) { width: 100%; }
+.wpb_wrapper a { color: #59372a; text-decoration: underline; }
+
+.wpb_gmaps_widget.mapscustom {
+    width: 100%;
+}
+
+.colorwhite{
+    color: #FFFFFF;
+}
+
+/* FORM RELATED */
+.input-main-wrapper, .form-submit-wrapper,
+.label-wrapper, .input-wrapper { display: inline-block; float: left; }
+.input-main-wrapper, .form-submit-wrapper { clear: left; width: 100%; }
+.input-main-wrapper { margin-bottom: 1.2em; }
+.label-wrapper { padding-top: 0.5em; }
+.label-wrapper label { color: #fff; }
+.input-wrapper input, .input-wrapper textarea { padding: 0.5em 1em; display: inline-block; width: 100%; background: #fff; border-radius: 15px; border: 0px; outline: 0px; }
+.form-submit-wrapper input { padding: 0.5em 2.5em; color: #111664; background: #ffc822; border: 0px; border-radius: 15px; text-transform: uppercase; font-family: 'Merriweather', serif !important; outline: 0px; }
+
+@media screen and (max-width: 991px) {
+    
+        .container { padding-left: 0px; padding-right: 0px; max-width: 90% !important; }
+        .vc_col-sm-12, .vc_col-sm-11, .vc_col-sm-10, .vc_col-sm-9, .vc_col-sm-8, .vc_col-sm-7, 
+        .vc_col-sm-6, .vc_col-sm-5, .vc_col-sm-4, .vc_col-sm-3, .vc_col-sm-2, .vc_col-sm-1
+        { width: 100% !important; }
+        .vc_btn3-container.vc_btn3-inline { margin-bottom: 0px; }
+}

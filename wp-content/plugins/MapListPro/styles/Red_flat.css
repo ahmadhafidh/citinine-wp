@@ -1,0 +1,142 @@
+/***************************/
+/* Colours
+#BF1E4B - hover
+#AC193D - normal
+ */
+/***************************/
+.infoWindowContainer .infoWindow h3{color:#fff !important;}
+
+.infoWindowContainer .infoWindow h3,
+.prettyMapList .corePrettyStyle{
+
+	-webkit-transition: background 0.1s ease-in;
+	-moz-transition: background 0.1s ease-in;
+	-ms-transition: background 0.1s ease-in;
+	-o-transition: background 0.1s ease-in;
+	transition: background 0.1s ease-in;
+
+	/*Gradient background*/
+    background-color: #AC193D;
+	border:solid 1px transparent;
+    color:#fff;
+
+	/*Drop shadow*/
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+
+	/*Rounded corners*/
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+
+	/*Text shadow*/
+	text-shadow: none;
+
+}
+
+.prettyMapList .corePrettyStyle a{color:#fff;}
+
+.prettyMapList .corePrettyStyle:hover{
+
+    background-color:#BF1E4B;
+    color:#eee;
+
+	/*Text shadow*/
+	text-shadow:none;
+}
+
+.prettyMapList .corePrettyStyle:hover a,
+.prettyMapList a.corePrettyStyle:hover{color:#fff;}
+
+.prettyMapList .corePrettyStyle:active{
+	/*Inset drop-shadow*/
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+
+	background-color:#0e0e0e;
+    color:#eee;
+	border-color:transparent;
+}
+
+/*Link colours*/
+.prettyMapList .prettylink a,
+.prettyMapList .prettylink a:visited{color:#fff;}
+
+.prettyMapList .prettylink .mapcategories{color:#e4e4e4;}
+.prettyMapList .prettylink .mapcategories span{color:#f4f4f4;}
+
+/*Close bar*/
+.prettyMapList .prettyFileBar .bar{
+	background-color:#fbfbfb;
+	border-top:solid 1px #ccc;
+}
+
+.prettyMapList .prettyFileBar .bar .cross{opacity:0.4;}
+.prettyMapList .prettyFileBar .bar .cross:hover{background-color:#efefef;}
+
+.prettyMapList .prettyFileBar .prettyFileFilters,
+.prettyMapList .prettyFileBar .prettyFileSorting{
+	border:none;
+	border-radius:0;
+	top:43px;
+}
+
+.prettyMapList .prettyFileBar .prettyFileFilters li a,
+.prettyMapList .prettyFileBar .prettyFileSorting li a {
+    background-color: #AC193D;
+    border:none;
+    color:#fff;
+}
+
+.prettyMapList .prettyFileBar .prettyFileFilters li a:hover,
+.prettyMapList .prettyFileBar .prettyFileSorting li a:hover{
+    background-color:#BF1E4B;
+    color:#eee;
+}
+
+/* Image overrides */
+
+/*Sort and Filter Buttons*/
+.prettyMapList .showSortingBtn:before,
+.prettyMapList .showFilterBtn:before{
+	background:transparent url(../images/icons/white/filter_white.png) no-repeat 0 0;
+}
+
+.prettyMapList .showSortingBtn:before{background-image:url(../images/icons/white/sort_white.png);}
+.prettyMapList .sortAsc:before{background-image:url(../images/icons/white/sort_white_up.png);}
+
+.prettyMapList .prettyFileBar .prettyFileSorting li a {
+	background-image: url(../images/icons/white/sort_white_down.png);
+	background-position: 100px 4px;
+}
+
+.prettyMapList .prettyFileBar .prettyFileSorting li a.sortAsc {
+	background:#AC193D url(../images/icons/white/sort_white_up.png) no-repeat 100px 4px;
+}
+
+.prettyMapList .prettyFileBar .categoryList a.showing:after,
+.prettyMapList .prettyFileBar .prettyFileFilters a.showing:after {
+background: transparent url(../images/icons/white/tick.png) no-repeat 0 0;
+}
+
+.prettyMapList .map:after {
+	background: transparent url(../images/icons/white/pin_white.png) no-repeat 0 0;
+	left:8px;
+	top:9px;
+}
+
+.prettyMapList .prettyFileBar .categoryList a.showing,
+.prettyMapList .prettyFileBar .prettyFileFilters a.showing {
+    background-color:#BF1E4B;
+    color:#fff;
+    text-shadow:none;
+}
+
+.prettyMapList .prettyFileBar .categoryList a.showing:after,
+.prettyMapList .prettyFileBar .prettyFileFilters a.showing:after{
+	left: 4px;
+	opacity:1;
+	top: 5px;
+}

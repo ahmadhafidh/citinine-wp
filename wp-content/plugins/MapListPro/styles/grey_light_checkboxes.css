@@ -1,0 +1,134 @@
+/***************************/
+/* Colours                 */
+/***************************/
+.infoWindowContainer .infoWindow h3,
+.prettyMapList .corePrettyStyle,
+.prettyMapList .prettyFileBar .categoryList a.showing,
+.prettyMapList .prettyFileBar .prettyFileFilters a.showing{
+    /*Gradient background*/
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+    background: linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+    /*Rounded corners*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    /*Text shadow*/
+    text-shadow: 0px 2px 0px #fff;
+
+    border:solid 1px #ccc;
+    color:#555;
+}
+
+.prettyMapList .corePrettyStyle a{color:#555;}
+
+.prettyMapList .corePrettyStyle:hover{
+    background-color:#ccc;
+    border-color:#aaa;
+}
+
+.prettyMapList .corePrettyStyle:hover a,
+.prettyMapList a.corePrettyStyle:hover{color:#D54E21;}
+
+.prettyMapList .corePrettyStyle:active{
+    /*Inset drop-shadow*/
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+
+    background-color:#ededed;
+    background-position:0 -10px;
+    background-repeat:repeat-x;
+    border-color:#aaa;
+}
+
+/*Close bar*/
+.prettyMapList .prettyFileBar .bar{
+	background-color:#fbfbfb;
+	border-top:solid 1px #ccc;
+}
+.prettyMapList .prettyFileBar .bar .cross{opacity:0.4;}
+.prettyMapList .prettyFileBar .bar .cross:hover{background-color:#efefef;}
+
+/*InfoWindow*/
+.infoWindowContainer:after {border-top-color: #fff;}
+.infoWindowContainer:before {border-top-color: #ccc;}
+.infoWindowContainer{border:solid 1px #ccc;}
+.infoWindowContainer .infoWindow h3{border-bottom:solid 1px #aaa;}
+
+/*=================================*/
+
+.prettyMapList .prettyFileBar .categoryList a.showing:after,
+.prettyMapList .prettyFileBar .prettyFileFilters a.showing:after
+{
+
+    -webkit-box-shadow:inset none;
+    box-shadow:inset none;
+
+    content:"";
+    background:#fff url(../images/icons/silk_icons/tick.png) no-repeat 0 0;
+    display:block;
+    height:16px;
+    left:6px;
+    opacity:0.8;
+    position:absolute;
+    top:6px;
+    width:16px;
+}
+
+.prettyMapList .prettyFileBar .categoryList .btn{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+
+    line-height:22px;
+    margin-bottom:3px;
+    margin-left:0;
+    padding:4px 8px 4px 30px;
+    position:relative;
+}
+
+.prettyMapList .prettyFileBar .categoryList li{
+    float:left;
+}
+
+.prettyMapList .prettyFileBar .categoryList a.showing{
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+
+    padding:4px 8px 4px 30px;
+    text-shadow:0 1px 1px rgba(255,255,255,1);
+
+}
+
+.prettyMapList .prettyFileBar .categoryList .btn:after
+{
+    -webkit-box-shadow:inset 0 1px 1px 0 rgba(0,0,0,0.1);
+    box-shadow:inset 0 1px 1px 0 rgba(0,0,0,0.1);
+
+    content:"";
+    background-color:#fff;
+    border:solid 1px #ccc;
+    display:block;
+    height:16px;
+    position:absolute;
+    top:6px;
+    left:6px;
+    width:16px;
+}
+
+.prettyMapList .prettyFileBar .categoryList .btn:hover:after{
+    background-color:rgba(233,246,253,1);
+    border-color:#aaa;
+}
+
+
